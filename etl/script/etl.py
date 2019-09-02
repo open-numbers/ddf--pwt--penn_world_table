@@ -5,10 +5,9 @@ import numpy as np
 import os
 
 from ddf_utils.str import to_concept_id
-from ddf_utils.index import create_index_file
 
 # configuration of file path
-source = '../source/pwt90.xlsx'
+source = '../source/pwt91.xlsx'
 out_dir = '../../'
 
 
@@ -72,7 +71,7 @@ if __name__ == '__main__':
                             'ddf--datapoints--{}--by--country--year.csv'.format(k))
         df.to_csv(path, index=False)
 
-    print('creating index file...')
-    create_index_file(out_dir)
+    # print('creating index file...')
+    # create_index_file(out_dir)
 
     print('Done.')
