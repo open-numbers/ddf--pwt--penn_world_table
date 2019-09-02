@@ -1,4 +1,4 @@
-country,year,i_outlier
+country,year,i_irr
 abw,1970,Regular
 abw,1971,Regular
 abw,1972,Regular
@@ -69,7 +69,7 @@ ago,1988,Regular
 ago,1989,Regular
 ago,1990,Regular
 ago,1991,Regular
-ago,1992,Regular
+ago,1992,Outlier
 ago,1993,Regular
 ago,1994,Regular
 ago,1995,Regular
@@ -79,14 +79,14 @@ ago,1998,Regular
 ago,1999,Regular
 ago,2000,Regular
 ago,2001,Regular
-ago,2002,Regular
-ago,2003,Regular
-ago,2004,Regular
+ago,2002,Lower bound
+ago,2003,Lower bound
+ago,2004,Lower bound
 ago,2005,Regular
 ago,2006,Regular
 ago,2007,Regular
 ago,2008,Regular
-ago,2009,Regular
+ago,2009,Lower bound
 ago,2010,Regular
 ago,2011,Regular
 ago,2012,Regular
@@ -95,154 +95,10 @@ ago,2014,Regular
 ago,2015,Regular
 ago,2016,Regular
 ago,2017,Regular
-aia,1970,Regular
-aia,1971,Regular
-aia,1972,Regular
-aia,1973,Regular
-aia,1974,Regular
-aia,1975,Regular
-aia,1976,Regular
-aia,1977,Regular
-aia,1978,Regular
-aia,1979,Regular
-aia,1980,Regular
-aia,1981,Regular
-aia,1982,Regular
-aia,1983,Regular
-aia,1984,Regular
-aia,1985,Regular
-aia,1986,Regular
-aia,1987,Regular
-aia,1988,Regular
-aia,1989,Regular
-aia,1990,Regular
-aia,1991,Regular
-aia,1992,Regular
-aia,1993,Regular
-aia,1994,Regular
-aia,1995,Regular
-aia,1996,Regular
-aia,1997,Regular
-aia,1998,Regular
-aia,1999,Regular
-aia,2000,Regular
-aia,2001,Regular
-aia,2002,Regular
-aia,2003,Regular
-aia,2004,Regular
-aia,2005,Regular
-aia,2006,Regular
-aia,2007,Regular
-aia,2008,Regular
-aia,2009,Regular
-aia,2010,Regular
-aia,2011,Regular
-aia,2012,Regular
-aia,2013,Regular
-aia,2014,Regular
-aia,2015,Regular
-aia,2016,Regular
-aia,2017,Regular
-alb,1970,Regular
-alb,1971,Regular
-alb,1972,Regular
-alb,1973,Regular
-alb,1974,Regular
-alb,1975,Regular
-alb,1976,Regular
-alb,1977,Regular
-alb,1978,Regular
-alb,1979,Regular
-alb,1980,Regular
-alb,1981,Regular
-alb,1982,Regular
-alb,1983,Regular
-alb,1984,Regular
-alb,1985,Regular
-alb,1986,Regular
-alb,1987,Regular
-alb,1988,Regular
-alb,1989,Regular
-alb,1990,Regular
-alb,1991,Regular
-alb,1992,Regular
-alb,1993,Regular
-alb,1994,Regular
-alb,1995,Regular
-alb,1996,Regular
-alb,1997,Regular
-alb,1998,Regular
-alb,1999,Regular
-alb,2000,Regular
-alb,2001,Regular
-alb,2002,Regular
-alb,2003,Regular
-alb,2004,Regular
-alb,2005,Regular
-alb,2006,Regular
-alb,2007,Regular
-alb,2008,Regular
-alb,2009,Regular
-alb,2010,Regular
-alb,2011,Regular
-alb,2012,Regular
-alb,2013,Regular
-alb,2014,Regular
-alb,2015,Regular
-alb,2016,Regular
-alb,2017,Regular
-are,1970,Outlier
-are,1971,Outlier
-are,1972,Outlier
-are,1973,Outlier
-are,1974,Outlier
-are,1975,Outlier
-are,1976,Outlier
-are,1977,Outlier
-are,1978,Outlier
-are,1979,Outlier
-are,1980,Outlier
-are,1981,Outlier
-are,1982,Outlier
-are,1983,Outlier
-are,1984,Outlier
-are,1985,Outlier
-are,1986,Regular
-are,1987,Regular
-are,1988,Regular
-are,1989,Regular
-are,1990,Regular
-are,1991,Regular
-are,1992,Regular
-are,1993,Regular
-are,1994,Regular
-are,1995,Regular
-are,1996,Regular
-are,1997,Regular
-are,1998,Regular
-are,1999,Regular
-are,2000,Regular
-are,2001,Regular
-are,2002,Regular
-are,2003,Regular
-are,2004,Regular
-are,2005,Regular
-are,2006,Regular
-are,2007,Regular
-are,2008,Regular
-are,2009,Regular
-are,2010,Regular
-are,2011,Regular
-are,2012,Regular
-are,2013,Regular
-are,2014,Regular
-are,2015,Regular
-are,2016,Regular
-are,2017,Regular
-arg,1950,Outlier
-arg,1951,Outlier
-arg,1952,Outlier
-arg,1953,Outlier
+arg,1950,Regular
+arg,1951,Regular
+arg,1952,Regular
+arg,1953,Regular
 arg,1954,Regular
 arg,1955,Regular
 arg,1956,Regular
@@ -309,11 +165,11 @@ arg,2016,Regular
 arg,2017,Regular
 arm,1990,Regular
 arm,1991,Regular
-arm,1992,Regular
-arm,1993,Regular
-arm,1994,Regular
-arm,1995,Regular
-arm,1996,Regular
+arm,1992,Lower bound
+arm,1993,Lower bound
+arm,1994,Lower bound
+arm,1995,Lower bound
+arm,1996,Lower bound
 arm,1997,Regular
 arm,1998,Regular
 arm,1999,Regular
@@ -335,54 +191,6 @@ arm,2014,Regular
 arm,2015,Regular
 arm,2016,Regular
 arm,2017,Regular
-atg,1970,Regular
-atg,1971,Regular
-atg,1972,Regular
-atg,1973,Regular
-atg,1974,Regular
-atg,1975,Regular
-atg,1976,Regular
-atg,1977,Regular
-atg,1978,Regular
-atg,1979,Regular
-atg,1980,Regular
-atg,1981,Regular
-atg,1982,Regular
-atg,1983,Regular
-atg,1984,Regular
-atg,1985,Regular
-atg,1986,Regular
-atg,1987,Regular
-atg,1988,Regular
-atg,1989,Regular
-atg,1990,Regular
-atg,1991,Regular
-atg,1992,Regular
-atg,1993,Regular
-atg,1994,Regular
-atg,1995,Regular
-atg,1996,Regular
-atg,1997,Regular
-atg,1998,Regular
-atg,1999,Regular
-atg,2000,Regular
-atg,2001,Regular
-atg,2002,Regular
-atg,2003,Regular
-atg,2004,Regular
-atg,2005,Regular
-atg,2006,Regular
-atg,2007,Regular
-atg,2008,Regular
-atg,2009,Regular
-atg,2010,Regular
-atg,2011,Regular
-atg,2012,Regular
-atg,2013,Regular
-atg,2014,Regular
-atg,2015,Regular
-atg,2016,Regular
-atg,2017,Regular
 aus,1950,Regular
 aus,1951,Regular
 aus,1952,Regular
@@ -520,10 +328,10 @@ aut,2015,Regular
 aut,2016,Regular
 aut,2017,Regular
 aze,1990,Regular
-aze,1991,Outlier
+aze,1991,Regular
 aze,1992,Regular
 aze,1993,Regular
-aze,1994,Regular
+aze,1994,Lower bound
 aze,1995,Regular
 aze,1996,Regular
 aze,1997,Regular
@@ -547,65 +355,65 @@ aze,2014,Regular
 aze,2015,Regular
 aze,2016,Regular
 aze,2017,Regular
-bdi,1960,Regular
-bdi,1961,Regular
-bdi,1962,Regular
-bdi,1963,Regular
-bdi,1964,Regular
-bdi,1965,Regular
-bdi,1966,Regular
-bdi,1967,Regular
-bdi,1968,Regular
-bdi,1969,Regular
-bdi,1970,Regular
-bdi,1971,Regular
-bdi,1972,Regular
-bdi,1973,Regular
-bdi,1974,Regular
-bdi,1975,Regular
-bdi,1976,Regular
-bdi,1977,Regular
-bdi,1978,Regular
-bdi,1979,Regular
-bdi,1980,Regular
-bdi,1981,Regular
-bdi,1982,Regular
-bdi,1983,Regular
-bdi,1984,Regular
-bdi,1985,Regular
-bdi,1986,Regular
-bdi,1987,Regular
-bdi,1988,Regular
-bdi,1989,Regular
-bdi,1990,Regular
-bdi,1991,Regular
-bdi,1992,Regular
-bdi,1993,Regular
-bdi,1994,Regular
-bdi,1995,Regular
-bdi,1996,Regular
-bdi,1997,Regular
-bdi,1998,Regular
-bdi,1999,Regular
-bdi,2000,Regular
-bdi,2001,Regular
-bdi,2002,Regular
-bdi,2003,Regular
-bdi,2004,Regular
-bdi,2005,Regular
-bdi,2006,Regular
-bdi,2007,Regular
-bdi,2008,Regular
-bdi,2009,Regular
-bdi,2010,Regular
-bdi,2011,Regular
-bdi,2012,Regular
-bdi,2013,Regular
-bdi,2014,Regular
-bdi,2015,Regular
+bdi,1960,Low capital share
+bdi,1961,Low capital share
+bdi,1962,Low capital share
+bdi,1963,Low capital share
+bdi,1964,Low capital share
+bdi,1965,Low capital share
+bdi,1966,Low capital share
+bdi,1967,Low capital share
+bdi,1968,Low capital share
+bdi,1969,Low capital share
+bdi,1970,Low capital share
+bdi,1971,Outlier
+bdi,1972,Low capital share
+bdi,1973,Low capital share
+bdi,1974,Low capital share
+bdi,1975,Low capital share
+bdi,1976,Low capital share
+bdi,1977,Low capital share
+bdi,1978,Low capital share
+bdi,1979,Low capital share
+bdi,1980,Low capital share
+bdi,1981,Low capital share
+bdi,1982,Low capital share
+bdi,1983,Low capital share
+bdi,1984,Low capital share
+bdi,1985,Low capital share
+bdi,1986,Low capital share
+bdi,1987,Low capital share
+bdi,1988,Low capital share
+bdi,1989,Low capital share
+bdi,1990,Lower bound
+bdi,1991,Lower bound
+bdi,1992,Lower bound
+bdi,1993,Lower bound
+bdi,1994,Lower bound
+bdi,1995,Lower bound
+bdi,1996,Lower bound
+bdi,1997,Lower bound
+bdi,1998,Lower bound
+bdi,1999,Lower bound
+bdi,2000,Lower bound
+bdi,2001,Lower bound
+bdi,2002,Lower bound
+bdi,2003,Lower bound
+bdi,2004,Lower bound
+bdi,2005,Lower bound
+bdi,2006,Lower bound
+bdi,2007,Lower bound
+bdi,2008,Low capital share
+bdi,2009,Low capital share
+bdi,2010,Low capital share
+bdi,2011,Low capital share
+bdi,2012,Low capital share
+bdi,2013,Low capital share
+bdi,2014,Low capital share
+bdi,2015,Low capital share
 bdi,2016,Regular
 bdi,2017,Regular
-bel,1950,Regular
+bel,1950,Outlier
 bel,1951,Regular
 bel,1952,Regular
 bel,1953,Regular
@@ -739,7 +547,7 @@ bfa,1962,Regular
 bfa,1963,Regular
 bfa,1964,Regular
 bfa,1965,Regular
-bfa,1966,Regular
+bfa,1966,Outlier
 bfa,1967,Regular
 bfa,1968,Regular
 bfa,1969,Regular
@@ -757,7 +565,7 @@ bfa,1980,Regular
 bfa,1981,Regular
 bfa,1982,Regular
 bfa,1983,Regular
-bfa,1984,Regular
+bfa,1984,Low capital share
 bfa,1985,Regular
 bfa,1986,Regular
 bfa,1987,Regular
@@ -789,67 +597,8 @@ bfa,2012,Regular
 bfa,2013,Regular
 bfa,2014,Regular
 bfa,2015,Regular
-bfa,2016,Regular
-bfa,2017,Regular
-bgd,1959,Regular
-bgd,1960,Regular
-bgd,1961,Regular
-bgd,1962,Regular
-bgd,1963,Regular
-bgd,1964,Regular
-bgd,1965,Regular
-bgd,1966,Regular
-bgd,1967,Regular
-bgd,1968,Regular
-bgd,1969,Regular
-bgd,1970,Regular
-bgd,1971,Regular
-bgd,1972,Regular
-bgd,1973,Regular
-bgd,1974,Regular
-bgd,1975,Regular
-bgd,1976,Regular
-bgd,1977,Regular
-bgd,1978,Regular
-bgd,1979,Regular
-bgd,1980,Regular
-bgd,1981,Regular
-bgd,1982,Regular
-bgd,1983,Regular
-bgd,1984,Regular
-bgd,1985,Regular
-bgd,1986,Regular
-bgd,1987,Regular
-bgd,1988,Regular
-bgd,1989,Regular
-bgd,1990,Regular
-bgd,1991,Regular
-bgd,1992,Regular
-bgd,1993,Regular
-bgd,1994,Regular
-bgd,1995,Regular
-bgd,1996,Regular
-bgd,1997,Regular
-bgd,1998,Regular
-bgd,1999,Regular
-bgd,2000,Regular
-bgd,2001,Regular
-bgd,2002,Regular
-bgd,2003,Regular
-bgd,2004,Regular
-bgd,2005,Regular
-bgd,2006,Regular
-bgd,2007,Regular
-bgd,2008,Regular
-bgd,2009,Regular
-bgd,2010,Regular
-bgd,2011,Regular
-bgd,2012,Regular
-bgd,2013,Regular
-bgd,2014,Regular
-bgd,2015,Regular
-bgd,2016,Regular
-bgd,2017,Regular
+bfa,2016,Low capital share
+bfa,2017,Low capital share
 bgr,1970,Regular
 bgr,1971,Regular
 bgr,1972,Regular
@@ -876,7 +625,7 @@ bgr,1992,Regular
 bgr,1993,Regular
 bgr,1994,Regular
 bgr,1995,Regular
-bgr,1996,Regular
+bgr,1996,Outlier
 bgr,1997,Regular
 bgr,1998,Regular
 bgr,1999,Regular
@@ -914,7 +663,7 @@ bhr,1982,Regular
 bhr,1983,Regular
 bhr,1984,Regular
 bhr,1985,Regular
-bhr,1986,Regular
+bhr,1986,Outlier
 bhr,1987,Regular
 bhr,1988,Regular
 bhr,1989,Regular
@@ -955,8 +704,8 @@ bhs,1975,Regular
 bhs,1976,Regular
 bhs,1977,Regular
 bhs,1978,Regular
-bhs,1979,Regular
-bhs,1980,Regular
+bhs,1979,Outlier
+bhs,1980,Outlier
 bhs,1981,Regular
 bhs,1982,Regular
 bhs,1983,Regular
@@ -994,9 +743,9 @@ bhs,2014,Regular
 bhs,2015,Regular
 bhs,2016,Regular
 bhs,2017,Regular
-bih,1990,Outlier
-bih,1991,Outlier
-bih,1992,Outlier
+bih,1990,Regular
+bih,1991,Regular
+bih,1992,Regular
 bih,1993,Regular
 bih,1994,Regular
 bih,1995,Regular
@@ -1023,7 +772,7 @@ bih,2015,Regular
 bih,2016,Regular
 bih,2017,Regular
 blr,1990,Regular
-blr,1991,Regular
+blr,1991,Outlier
 blr,1992,Regular
 blr,1993,Regular
 blr,1994,Regular
@@ -1050,54 +799,6 @@ blr,2014,Regular
 blr,2015,Regular
 blr,2016,Regular
 blr,2017,Regular
-blz,1970,Regular
-blz,1971,Regular
-blz,1972,Regular
-blz,1973,Regular
-blz,1974,Regular
-blz,1975,Regular
-blz,1976,Regular
-blz,1977,Regular
-blz,1978,Regular
-blz,1979,Regular
-blz,1980,Regular
-blz,1981,Regular
-blz,1982,Regular
-blz,1983,Regular
-blz,1984,Regular
-blz,1985,Regular
-blz,1986,Regular
-blz,1987,Regular
-blz,1988,Regular
-blz,1989,Regular
-blz,1990,Regular
-blz,1991,Regular
-blz,1992,Regular
-blz,1993,Regular
-blz,1994,Regular
-blz,1995,Regular
-blz,1996,Regular
-blz,1997,Regular
-blz,1998,Regular
-blz,1999,Regular
-blz,2000,Regular
-blz,2001,Regular
-blz,2002,Regular
-blz,2003,Regular
-blz,2004,Regular
-blz,2005,Regular
-blz,2006,Regular
-blz,2007,Regular
-blz,2008,Regular
-blz,2009,Regular
-blz,2010,Regular
-blz,2011,Regular
-blz,2012,Regular
-blz,2013,Regular
-blz,2014,Regular
-blz,2015,Regular
-blz,2016,Regular
-blz,2017,Regular
 bmu,1970,Regular
 bmu,1971,Regular
 bmu,1972,Regular
@@ -1126,13 +827,13 @@ bmu,1994,Regular
 bmu,1995,Regular
 bmu,1996,Regular
 bmu,1997,Regular
-bmu,1998,Outlier
-bmu,1999,Outlier
-bmu,2000,Outlier
-bmu,2001,Outlier
-bmu,2002,Outlier
-bmu,2003,Outlier
-bmu,2004,Outlier
+bmu,1998,Regular
+bmu,1999,Regular
+bmu,2000,Regular
+bmu,2001,Regular
+bmu,2002,Regular
+bmu,2003,Regular
+bmu,2004,Regular
 bmu,2005,Regular
 bmu,2006,Regular
 bmu,2007,Regular
@@ -1146,7 +847,7 @@ bmu,2014,Regular
 bmu,2015,Regular
 bmu,2016,Regular
 bmu,2017,Regular
-bol,1950,Regular
+bol,1950,Outlier
 bol,1951,Regular
 bol,1952,Regular
 bol,1953,Regular
@@ -1180,7 +881,7 @@ bol,1980,Regular
 bol,1981,Regular
 bol,1982,Regular
 bol,1983,Regular
-bol,1984,Regular
+bol,1984,Outlier
 bol,1985,Regular
 bol,1986,Regular
 bol,1987,Regular
@@ -1340,107 +1041,11 @@ brb,2014,Regular
 brb,2015,Regular
 brb,2016,Regular
 brb,2017,Regular
-brn,1970,Outlier
-brn,1971,Outlier
-brn,1972,Outlier
-brn,1973,Outlier
-brn,1974,Regular
-brn,1975,Regular
-brn,1976,Regular
-brn,1977,Regular
-brn,1978,Regular
-brn,1979,Regular
-brn,1980,Regular
-brn,1981,Regular
-brn,1982,Regular
-brn,1983,Regular
-brn,1984,Regular
-brn,1985,Regular
-brn,1986,Regular
-brn,1987,Regular
-brn,1988,Regular
-brn,1989,Regular
-brn,1990,Regular
-brn,1991,Regular
-brn,1992,Regular
-brn,1993,Regular
-brn,1994,Regular
-brn,1995,Regular
-brn,1996,Regular
-brn,1997,Regular
-brn,1998,Regular
-brn,1999,Regular
-brn,2000,Regular
-brn,2001,Regular
-brn,2002,Regular
-brn,2003,Regular
-brn,2004,Regular
-brn,2005,Regular
-brn,2006,Regular
-brn,2007,Regular
-brn,2008,Regular
-brn,2009,Regular
-brn,2010,Regular
-brn,2011,Regular
-brn,2012,Regular
-brn,2013,Regular
-brn,2014,Regular
-brn,2015,Regular
-brn,2016,Regular
-brn,2017,Regular
-btn,1970,Regular
-btn,1971,Regular
-btn,1972,Regular
-btn,1973,Regular
-btn,1974,Regular
-btn,1975,Regular
-btn,1976,Regular
-btn,1977,Regular
-btn,1978,Regular
-btn,1979,Regular
-btn,1980,Regular
-btn,1981,Regular
-btn,1982,Regular
-btn,1983,Regular
-btn,1984,Regular
-btn,1985,Regular
-btn,1986,Regular
-btn,1987,Regular
-btn,1988,Regular
-btn,1989,Regular
-btn,1990,Regular
-btn,1991,Regular
-btn,1992,Regular
-btn,1993,Regular
-btn,1994,Regular
-btn,1995,Regular
-btn,1996,Regular
-btn,1997,Regular
-btn,1998,Regular
-btn,1999,Regular
-btn,2000,Regular
-btn,2001,Regular
-btn,2002,Regular
-btn,2003,Regular
-btn,2004,Regular
-btn,2005,Regular
-btn,2006,Regular
-btn,2007,Regular
-btn,2008,Regular
-btn,2009,Regular
-btn,2010,Regular
-btn,2011,Regular
-btn,2012,Regular
-btn,2013,Regular
-btn,2014,Regular
-btn,2015,Regular
-btn,2016,Regular
-btn,2017,Regular
 bwa,1960,Regular
-bwa,1961,Regular
-bwa,1962,Regular
-bwa,1963,Regular
-bwa,1964,Regular
+bwa,1961,Outlier
+bwa,1962,Outlier
+bwa,1963,Outlier
+bwa,1964,Outlier
 bwa,1965,Regular
 bwa,1966,Regular
 bwa,1967,Regular
@@ -1552,34 +1157,34 @@ caf,2014,Regular
 caf,2015,Regular
 caf,2016,Regular
 caf,2017,Regular
-can,1950,Regular
-can,1951,Regular
-can,1952,Regular
-can,1953,Regular
-can,1954,Regular
-can,1955,Regular
-can,1956,Regular
-can,1957,Regular
-can,1958,Regular
-can,1959,Regular
-can,1960,Regular
-can,1961,Regular
-can,1962,Regular
-can,1963,Regular
-can,1964,Regular
-can,1965,Regular
-can,1966,Regular
-can,1967,Regular
-can,1968,Regular
-can,1969,Regular
-can,1970,Regular
-can,1971,Regular
-can,1972,Regular
-can,1973,Regular
-can,1974,Regular
-can,1975,Regular
-can,1976,Regular
-can,1977,Regular
+can,1950,Low capital share
+can,1951,Low capital share
+can,1952,Low capital share
+can,1953,Low capital share
+can,1954,Low capital share
+can,1955,Low capital share
+can,1956,Low capital share
+can,1957,Low capital share
+can,1958,Low capital share
+can,1959,Low capital share
+can,1960,Low capital share
+can,1961,Low capital share
+can,1962,Low capital share
+can,1963,Low capital share
+can,1964,Low capital share
+can,1965,Low capital share
+can,1966,Low capital share
+can,1967,Low capital share
+can,1968,Low capital share
+can,1969,Low capital share
+can,1970,Low capital share
+can,1971,Low capital share
+can,1972,Low capital share
+can,1973,Low capital share
+can,1974,Low capital share
+can,1975,Low capital share
+can,1976,Low capital share
+can,1977,Low capital share
 can,1978,Regular
 can,1979,Regular
 can,1980,Regular
@@ -1700,7 +1305,7 @@ chl,1959,Regular
 chl,1960,Regular
 chl,1961,Regular
 chl,1962,Regular
-chl,1963,Regular
+chl,1963,Outlier
 chl,1964,Regular
 chl,1965,Regular
 chl,1966,Regular
@@ -1761,7 +1366,7 @@ chn,1954,Regular
 chn,1955,Regular
 chn,1956,Regular
 chn,1957,Regular
-chn,1958,Regular
+chn,1958,Outlier
 chn,1959,Regular
 chn,1960,Regular
 chn,1961,Regular
@@ -1937,137 +1542,11 @@ cmr,2014,Regular
 cmr,2015,Regular
 cmr,2016,Regular
 cmr,2017,Regular
-cod,1950,Regular
-cod,1951,Regular
-cod,1952,Regular
-cod,1953,Regular
-cod,1954,Regular
-cod,1955,Regular
-cod,1956,Regular
-cod,1957,Regular
-cod,1958,Regular
-cod,1959,Regular
-cod,1960,Regular
-cod,1961,Regular
-cod,1962,Regular
-cod,1963,Regular
-cod,1964,Regular
-cod,1965,Regular
-cod,1966,Regular
-cod,1967,Regular
-cod,1968,Regular
-cod,1969,Regular
-cod,1970,Regular
-cod,1971,Regular
-cod,1972,Regular
-cod,1973,Regular
-cod,1974,Regular
-cod,1975,Regular
-cod,1976,Regular
-cod,1977,Regular
-cod,1978,Regular
-cod,1979,Regular
-cod,1980,Regular
-cod,1981,Regular
-cod,1982,Regular
-cod,1983,Regular
-cod,1984,Regular
-cod,1985,Regular
-cod,1986,Regular
-cod,1987,Regular
-cod,1988,Regular
-cod,1989,Regular
-cod,1990,Regular
-cod,1991,Regular
-cod,1992,Regular
-cod,1993,Regular
-cod,1994,Regular
-cod,1995,Regular
-cod,1996,Regular
-cod,1997,Regular
-cod,1998,Regular
-cod,1999,Regular
-cod,2000,Regular
-cod,2001,Regular
-cod,2002,Regular
-cod,2003,Regular
-cod,2004,Regular
-cod,2005,Regular
-cod,2006,Regular
-cod,2007,Regular
-cod,2008,Regular
-cod,2009,Regular
-cod,2010,Regular
-cod,2011,Regular
-cod,2012,Regular
-cod,2013,Regular
-cod,2014,Regular
-cod,2015,Regular
-cod,2016,Regular
-cod,2017,Regular
-cog,1960,Regular
-cog,1961,Regular
-cog,1962,Regular
-cog,1963,Regular
-cog,1964,Regular
-cog,1965,Regular
-cog,1966,Regular
-cog,1967,Regular
-cog,1968,Regular
-cog,1969,Regular
-cog,1970,Regular
-cog,1971,Regular
-cog,1972,Regular
-cog,1973,Regular
-cog,1974,Regular
-cog,1975,Regular
-cog,1976,Regular
-cog,1977,Regular
-cog,1978,Regular
-cog,1979,Regular
-cog,1980,Regular
-cog,1981,Regular
-cog,1982,Regular
-cog,1983,Regular
-cog,1984,Regular
-cog,1985,Regular
-cog,1986,Regular
-cog,1987,Regular
-cog,1988,Regular
-cog,1989,Regular
-cog,1990,Regular
-cog,1991,Regular
-cog,1992,Regular
-cog,1993,Regular
-cog,1994,Regular
-cog,1995,Regular
-cog,1996,Regular
-cog,1997,Regular
-cog,1998,Regular
-cog,1999,Regular
-cog,2000,Regular
-cog,2001,Regular
-cog,2002,Regular
-cog,2003,Regular
-cog,2004,Regular
-cog,2005,Regular
-cog,2006,Regular
-cog,2007,Regular
-cog,2008,Regular
-cog,2009,Regular
-cog,2010,Regular
-cog,2011,Regular
-cog,2012,Regular
-cog,2013,Regular
-cog,2014,Regular
-cog,2015,Regular
-cog,2016,Regular
-cog,2017,Regular
 col,1950,Regular
 col,1951,Regular
 col,1952,Regular
-col,1953,Regular
-col,1954,Regular
+col,1953,Outlier
+col,1954,Outlier
 col,1955,Regular
 col,1956,Regular
 col,1957,Regular
@@ -2131,64 +1610,6 @@ col,2014,Regular
 col,2015,Regular
 col,2016,Regular
 col,2017,Regular
-com,1960,Regular
-com,1961,Regular
-com,1962,Regular
-com,1963,Regular
-com,1964,Regular
-com,1965,Regular
-com,1966,Regular
-com,1967,Regular
-com,1968,Regular
-com,1969,Regular
-com,1970,Regular
-com,1971,Regular
-com,1972,Regular
-com,1973,Regular
-com,1974,Regular
-com,1975,Regular
-com,1976,Regular
-com,1977,Regular
-com,1978,Regular
-com,1979,Regular
-com,1980,Regular
-com,1981,Regular
-com,1982,Regular
-com,1983,Regular
-com,1984,Regular
-com,1985,Regular
-com,1986,Regular
-com,1987,Regular
-com,1988,Regular
-com,1989,Regular
-com,1990,Regular
-com,1991,Regular
-com,1992,Regular
-com,1993,Regular
-com,1994,Regular
-com,1995,Regular
-com,1996,Regular
-com,1997,Regular
-com,1998,Regular
-com,1999,Regular
-com,2000,Regular
-com,2001,Regular
-com,2002,Regular
-com,2003,Regular
-com,2004,Regular
-com,2005,Regular
-com,2006,Regular
-com,2007,Regular
-com,2008,Regular
-com,2009,Regular
-com,2010,Regular
-com,2011,Regular
-com,2012,Regular
-com,2013,Regular
-com,2014,Regular
-com,2015,Regular
-com,2016,Regular
-com,2017,Regular
 cpv,1960,Regular
 cpv,1961,Regular
 cpv,1962,Regular
@@ -2278,8 +1699,8 @@ cri,1977,Regular
 cri,1978,Regular
 cri,1979,Regular
 cri,1980,Regular
-cri,1981,Regular
-cri,1982,Regular
+cri,1981,Outlier
+cri,1982,Outlier
 cri,1983,Regular
 cri,1984,Regular
 cri,1985,Regular
@@ -2315,19 +1736,6 @@ cri,2014,Regular
 cri,2015,Regular
 cri,2016,Regular
 cri,2017,Regular
-cuw,2005,Regular
-cuw,2006,Regular
-cuw,2007,Regular
-cuw,2008,Regular
-cuw,2009,Regular
-cuw,2010,Regular
-cuw,2011,Regular
-cuw,2012,Regular
-cuw,2013,Regular
-cuw,2014,Regular
-cuw,2015,Regular
-cuw,2016,Regular
-cuw,2017,Regular
 cym,1970,Regular
 cym,1971,Regular
 cym,1972,Regular
@@ -2379,7 +1787,7 @@ cym,2017,Regular
 cyp,1950,Regular
 cyp,1951,Regular
 cyp,1952,Regular
-cyp,1953,Regular
+cyp,1953,Outlier
 cyp,1954,Regular
 cyp,1955,Regular
 cyp,1956,Regular
@@ -2401,7 +1809,7 @@ cyp,1971,Regular
 cyp,1972,Regular
 cyp,1973,Regular
 cyp,1974,Regular
-cyp,1975,Regular
+cyp,1975,Outlier
 cyp,1976,Regular
 cyp,1977,Regular
 cyp,1978,Regular
@@ -2444,7 +1852,7 @@ cyp,2014,Regular
 cyp,2015,Regular
 cyp,2016,Regular
 cyp,2017,Regular
-cze,1990,Regular
+cze,1990,Outlier
 cze,1991,Regular
 cze,1992,Regular
 cze,1993,Regular
@@ -2588,54 +1996,6 @@ dji,2014,Regular
 dji,2015,Regular
 dji,2016,Regular
 dji,2017,Regular
-dma,1970,Regular
-dma,1971,Regular
-dma,1972,Regular
-dma,1973,Regular
-dma,1974,Regular
-dma,1975,Regular
-dma,1976,Regular
-dma,1977,Regular
-dma,1978,Regular
-dma,1979,Regular
-dma,1980,Regular
-dma,1981,Regular
-dma,1982,Regular
-dma,1983,Regular
-dma,1984,Regular
-dma,1985,Regular
-dma,1986,Regular
-dma,1987,Regular
-dma,1988,Regular
-dma,1989,Regular
-dma,1990,Regular
-dma,1991,Regular
-dma,1992,Regular
-dma,1993,Regular
-dma,1994,Regular
-dma,1995,Regular
-dma,1996,Regular
-dma,1997,Regular
-dma,1998,Regular
-dma,1999,Regular
-dma,2000,Regular
-dma,2001,Regular
-dma,2002,Regular
-dma,2003,Regular
-dma,2004,Regular
-dma,2005,Regular
-dma,2006,Regular
-dma,2007,Regular
-dma,2008,Regular
-dma,2009,Regular
-dma,2010,Regular
-dma,2011,Regular
-dma,2012,Regular
-dma,2013,Regular
-dma,2014,Regular
-dma,2015,Regular
-dma,2016,Regular
-dma,2017,Regular
 dnk,1950,Regular
 dnk,1951,Regular
 dnk,1952,Regular
@@ -2771,64 +2131,6 @@ dom,2014,Regular
 dom,2015,Regular
 dom,2016,Regular
 dom,2017,Regular
-dza,1960,Regular
-dza,1961,Regular
-dza,1962,Regular
-dza,1963,Regular
-dza,1964,Regular
-dza,1965,Regular
-dza,1966,Regular
-dza,1967,Regular
-dza,1968,Regular
-dza,1969,Regular
-dza,1970,Regular
-dza,1971,Regular
-dza,1972,Regular
-dza,1973,Regular
-dza,1974,Regular
-dza,1975,Regular
-dza,1976,Regular
-dza,1977,Regular
-dza,1978,Regular
-dza,1979,Regular
-dza,1980,Regular
-dza,1981,Regular
-dza,1982,Regular
-dza,1983,Regular
-dza,1984,Regular
-dza,1985,Regular
-dza,1986,Regular
-dza,1987,Regular
-dza,1988,Regular
-dza,1989,Regular
-dza,1990,Regular
-dza,1991,Regular
-dza,1992,Regular
-dza,1993,Regular
-dza,1994,Regular
-dza,1995,Regular
-dza,1996,Regular
-dza,1997,Regular
-dza,1998,Regular
-dza,1999,Regular
-dza,2000,Regular
-dza,2001,Regular
-dza,2002,Regular
-dza,2003,Regular
-dza,2004,Regular
-dza,2005,Regular
-dza,2006,Regular
-dza,2007,Regular
-dza,2008,Regular
-dza,2009,Regular
-dza,2010,Regular
-dza,2011,Regular
-dza,2012,Regular
-dza,2013,Regular
-dza,2014,Regular
-dza,2015,Regular
-dza,2016,Regular
-dza,2017,Regular
 ecu,1950,Regular
 ecu,1951,Regular
 ecu,1952,Regular
@@ -2889,26 +2191,26 @@ ecu,2006,Regular
 ecu,2007,Regular
 ecu,2008,Regular
 ecu,2009,Regular
-ecu,2010,Regular
-ecu,2011,Regular
-ecu,2012,Regular
-ecu,2013,Regular
+ecu,2010,Low capital share
+ecu,2011,Low capital share
+ecu,2012,Low capital share
+ecu,2013,Low capital share
 ecu,2014,Regular
 ecu,2015,Regular
 ecu,2016,Regular
 ecu,2017,Regular
-egy,1950,Outlier
-egy,1951,Outlier
-egy,1952,Outlier
-egy,1953,Outlier
-egy,1954,Outlier
-egy,1955,Outlier
-egy,1956,Outlier
-egy,1957,Outlier
-egy,1958,Outlier
-egy,1959,Outlier
-egy,1960,Outlier
-egy,1961,Outlier
+egy,1950,Regular
+egy,1951,Regular
+egy,1952,Regular
+egy,1953,Regular
+egy,1954,Regular
+egy,1955,Regular
+egy,1956,Regular
+egy,1957,Regular
+egy,1958,Regular
+egy,1959,Regular
+egy,1960,Regular
+egy,1961,Regular
 egy,1962,Regular
 egy,1963,Regular
 egy,1964,Regular
@@ -2935,7 +2237,7 @@ egy,1984,Regular
 egy,1985,Regular
 egy,1986,Regular
 egy,1987,Regular
-egy,1988,Regular
+egy,1988,Outlier
 egy,1989,Regular
 egy,1990,Regular
 egy,1991,Regular
@@ -3035,10 +2337,10 @@ esp,2016,Regular
 esp,2017,Regular
 est,1990,Regular
 est,1991,Regular
-est,1992,Regular
-est,1993,Regular
-est,1994,Regular
-est,1995,Regular
+est,1992,Lower bound
+est,1993,Lower bound
+est,1994,Lower bound
+est,1995,Lower bound
 est,1996,Regular
 est,1997,Regular
 est,1998,Regular
@@ -3061,76 +2363,8 @@ est,2014,Regular
 est,2015,Regular
 est,2016,Regular
 est,2017,Regular
-eth,1950,Regular
-eth,1951,Regular
-eth,1952,Regular
-eth,1953,Regular
-eth,1954,Regular
-eth,1955,Regular
-eth,1956,Regular
-eth,1957,Regular
-eth,1958,Regular
-eth,1959,Regular
-eth,1960,Regular
-eth,1961,Regular
-eth,1962,Regular
-eth,1963,Regular
-eth,1964,Regular
-eth,1965,Regular
-eth,1966,Regular
-eth,1967,Regular
-eth,1968,Regular
-eth,1969,Regular
-eth,1970,Regular
-eth,1971,Regular
-eth,1972,Regular
-eth,1973,Regular
-eth,1974,Regular
-eth,1975,Regular
-eth,1976,Regular
-eth,1977,Regular
-eth,1978,Regular
-eth,1979,Regular
-eth,1980,Regular
-eth,1981,Regular
-eth,1982,Regular
-eth,1983,Regular
-eth,1984,Regular
-eth,1985,Regular
-eth,1986,Regular
-eth,1987,Regular
-eth,1988,Regular
-eth,1989,Regular
-eth,1990,Regular
-eth,1991,Regular
-eth,1992,Regular
-eth,1993,Regular
-eth,1994,Regular
-eth,1995,Regular
-eth,1996,Regular
-eth,1997,Regular
-eth,1998,Regular
-eth,1999,Regular
-eth,2000,Regular
-eth,2001,Regular
-eth,2002,Regular
-eth,2003,Regular
-eth,2004,Regular
-eth,2005,Regular
-eth,2006,Regular
-eth,2007,Regular
-eth,2008,Regular
-eth,2009,Regular
-eth,2010,Regular
-eth,2011,Regular
-eth,2012,Regular
-eth,2013,Regular
-eth,2014,Regular
-eth,2015,Regular
-eth,2016,Regular
-eth,2017,Regular
 fin,1950,Regular
-fin,1951,Regular
+fin,1951,Outlier
 fin,1952,Regular
 fin,1953,Regular
 fin,1954,Regular
@@ -3197,7 +2431,7 @@ fin,2014,Regular
 fin,2015,Regular
 fin,2016,Regular
 fin,2017,Regular
-fji,1960,Regular
+fji,1960,Outlier
 fji,1961,Regular
 fji,1962,Regular
 fji,1963,Regular
@@ -3337,20 +2571,20 @@ gab,1970,Regular
 gab,1971,Regular
 gab,1972,Regular
 gab,1973,Regular
-gab,1974,Regular
+gab,1974,Outlier
 gab,1975,Regular
 gab,1976,Regular
 gab,1977,Regular
-gab,1978,Regular
-gab,1979,Regular
-gab,1980,Regular
+gab,1978,Lower bound
+gab,1979,Lower bound
+gab,1980,Low capital share
 gab,1981,Regular
 gab,1982,Regular
 gab,1983,Regular
 gab,1984,Regular
 gab,1985,Regular
-gab,1986,Regular
-gab,1987,Regular
+gab,1986,Lower bound
+gab,1987,Lower bound
 gab,1988,Regular
 gab,1989,Regular
 gab,1990,Regular
@@ -3381,7 +2615,7 @@ gab,2014,Regular
 gab,2015,Regular
 gab,2016,Regular
 gab,2017,Regular
-gbr,1950,Regular
+gbr,1950,Outlier
 gbr,1951,Regular
 gbr,1952,Regular
 gbr,1953,Regular
@@ -3477,69 +2711,6 @@ geo,2014,Regular
 geo,2015,Regular
 geo,2016,Regular
 geo,2017,Regular
-gha,1955,Regular
-gha,1956,Regular
-gha,1957,Regular
-gha,1958,Regular
-gha,1959,Regular
-gha,1960,Regular
-gha,1961,Regular
-gha,1962,Regular
-gha,1963,Regular
-gha,1964,Regular
-gha,1965,Regular
-gha,1966,Regular
-gha,1967,Regular
-gha,1968,Regular
-gha,1969,Regular
-gha,1970,Regular
-gha,1971,Regular
-gha,1972,Regular
-gha,1973,Regular
-gha,1974,Regular
-gha,1975,Regular
-gha,1976,Regular
-gha,1977,Regular
-gha,1978,Regular
-gha,1979,Regular
-gha,1980,Regular
-gha,1981,Regular
-gha,1982,Regular
-gha,1983,Regular
-gha,1984,Regular
-gha,1985,Regular
-gha,1986,Regular
-gha,1987,Regular
-gha,1988,Regular
-gha,1989,Regular
-gha,1990,Regular
-gha,1991,Regular
-gha,1992,Regular
-gha,1993,Regular
-gha,1994,Regular
-gha,1995,Regular
-gha,1996,Regular
-gha,1997,Regular
-gha,1998,Regular
-gha,1999,Regular
-gha,2000,Regular
-gha,2001,Regular
-gha,2002,Regular
-gha,2003,Regular
-gha,2004,Regular
-gha,2005,Regular
-gha,2006,Regular
-gha,2007,Regular
-gha,2008,Regular
-gha,2009,Regular
-gha,2010,Regular
-gha,2011,Regular
-gha,2012,Regular
-gha,2013,Regular
-gha,2014,Regular
-gha,2015,Regular
-gha,2016,Regular
-gha,2017,Regular
 gin,1959,Regular
 gin,1960,Regular
 gin,1961,Regular
@@ -3599,180 +2770,6 @@ gin,2014,Regular
 gin,2015,Regular
 gin,2016,Regular
 gin,2017,Regular
-gmb,1960,Regular
-gmb,1961,Regular
-gmb,1962,Regular
-gmb,1963,Regular
-gmb,1964,Regular
-gmb,1965,Regular
-gmb,1966,Regular
-gmb,1967,Regular
-gmb,1968,Regular
-gmb,1969,Regular
-gmb,1970,Regular
-gmb,1971,Regular
-gmb,1972,Regular
-gmb,1973,Regular
-gmb,1974,Regular
-gmb,1975,Regular
-gmb,1976,Regular
-gmb,1977,Regular
-gmb,1978,Regular
-gmb,1979,Regular
-gmb,1980,Regular
-gmb,1981,Regular
-gmb,1982,Regular
-gmb,1983,Regular
-gmb,1984,Regular
-gmb,1985,Regular
-gmb,1986,Regular
-gmb,1987,Regular
-gmb,1988,Regular
-gmb,1989,Regular
-gmb,1990,Regular
-gmb,1991,Regular
-gmb,1992,Regular
-gmb,1993,Regular
-gmb,1994,Regular
-gmb,1995,Regular
-gmb,1996,Regular
-gmb,1997,Regular
-gmb,1998,Regular
-gmb,1999,Regular
-gmb,2000,Regular
-gmb,2001,Regular
-gmb,2002,Regular
-gmb,2003,Regular
-gmb,2004,Regular
-gmb,2005,Regular
-gmb,2006,Regular
-gmb,2007,Regular
-gmb,2008,Regular
-gmb,2009,Regular
-gmb,2010,Regular
-gmb,2011,Regular
-gmb,2012,Regular
-gmb,2013,Regular
-gmb,2014,Regular
-gmb,2015,Regular
-gmb,2016,Regular
-gmb,2017,Regular
-gnb,1960,Outlier
-gnb,1961,Outlier
-gnb,1962,Outlier
-gnb,1963,Outlier
-gnb,1964,Outlier
-gnb,1965,Outlier
-gnb,1966,Outlier
-gnb,1967,Outlier
-gnb,1968,Outlier
-gnb,1969,Outlier
-gnb,1970,Outlier
-gnb,1971,Outlier
-gnb,1972,Outlier
-gnb,1973,Outlier
-gnb,1974,Outlier
-gnb,1975,Outlier
-gnb,1976,Outlier
-gnb,1977,Outlier
-gnb,1978,Outlier
-gnb,1979,Outlier
-gnb,1980,Outlier
-gnb,1981,Outlier
-gnb,1982,Outlier
-gnb,1983,Outlier
-gnb,1984,Outlier
-gnb,1985,Outlier
-gnb,1986,Outlier
-gnb,1987,Outlier
-gnb,1988,Outlier
-gnb,1989,Outlier
-gnb,1990,Outlier
-gnb,1991,Outlier
-gnb,1992,Outlier
-gnb,1993,Outlier
-gnb,1994,Outlier
-gnb,1995,Outlier
-gnb,1996,Regular
-gnb,1997,Regular
-gnb,1998,Regular
-gnb,1999,Regular
-gnb,2000,Regular
-gnb,2001,Regular
-gnb,2002,Regular
-gnb,2003,Regular
-gnb,2004,Regular
-gnb,2005,Regular
-gnb,2006,Regular
-gnb,2007,Regular
-gnb,2008,Regular
-gnb,2009,Regular
-gnb,2010,Regular
-gnb,2011,Regular
-gnb,2012,Regular
-gnb,2013,Regular
-gnb,2014,Regular
-gnb,2015,Regular
-gnb,2016,Regular
-gnb,2017,Regular
-gnq,1960,Regular
-gnq,1961,Regular
-gnq,1962,Regular
-gnq,1963,Regular
-gnq,1964,Regular
-gnq,1965,Regular
-gnq,1966,Regular
-gnq,1967,Regular
-gnq,1968,Regular
-gnq,1969,Regular
-gnq,1970,Regular
-gnq,1971,Regular
-gnq,1972,Regular
-gnq,1973,Regular
-gnq,1974,Regular
-gnq,1975,Regular
-gnq,1976,Regular
-gnq,1977,Regular
-gnq,1978,Regular
-gnq,1979,Regular
-gnq,1980,Regular
-gnq,1981,Regular
-gnq,1982,Regular
-gnq,1983,Regular
-gnq,1984,Regular
-gnq,1985,Regular
-gnq,1986,Regular
-gnq,1987,Regular
-gnq,1988,Regular
-gnq,1989,Regular
-gnq,1990,Regular
-gnq,1991,Regular
-gnq,1992,Regular
-gnq,1993,Regular
-gnq,1994,Regular
-gnq,1995,Regular
-gnq,1996,Regular
-gnq,1997,Regular
-gnq,1998,Regular
-gnq,1999,Regular
-gnq,2000,Regular
-gnq,2001,Regular
-gnq,2002,Regular
-gnq,2003,Regular
-gnq,2004,Regular
-gnq,2005,Regular
-gnq,2006,Regular
-gnq,2007,Regular
-gnq,2008,Regular
-gnq,2009,Regular
-gnq,2010,Regular
-gnq,2011,Regular
-gnq,2012,Regular
-gnq,2013,Regular
-gnq,2014,Regular
-gnq,2015,Regular
-gnq,2016,Regular
-gnq,2017,Regular
 grc,1951,Regular
 grc,1952,Regular
 grc,1953,Regular
@@ -3840,54 +2837,6 @@ grc,2014,Regular
 grc,2015,Regular
 grc,2016,Regular
 grc,2017,Regular
-grd,1970,Regular
-grd,1971,Regular
-grd,1972,Regular
-grd,1973,Regular
-grd,1974,Regular
-grd,1975,Regular
-grd,1976,Regular
-grd,1977,Regular
-grd,1978,Regular
-grd,1979,Regular
-grd,1980,Regular
-grd,1981,Regular
-grd,1982,Regular
-grd,1983,Regular
-grd,1984,Regular
-grd,1985,Regular
-grd,1986,Regular
-grd,1987,Regular
-grd,1988,Regular
-grd,1989,Regular
-grd,1990,Regular
-grd,1991,Regular
-grd,1992,Regular
-grd,1993,Regular
-grd,1994,Regular
-grd,1995,Regular
-grd,1996,Regular
-grd,1997,Regular
-grd,1998,Regular
-grd,1999,Regular
-grd,2000,Regular
-grd,2001,Regular
-grd,2002,Regular
-grd,2003,Regular
-grd,2004,Regular
-grd,2005,Regular
-grd,2006,Regular
-grd,2007,Regular
-grd,2008,Regular
-grd,2009,Regular
-grd,2010,Regular
-grd,2011,Regular
-grd,2012,Regular
-grd,2013,Regular
-grd,2014,Regular
-grd,2015,Regular
-grd,2016,Regular
-grd,2017,Regular
 gtm,1950,Regular
 gtm,1951,Regular
 gtm,1952,Regular
@@ -4014,7 +2963,7 @@ hkg,2014,Regular
 hkg,2015,Regular
 hkg,2016,Regular
 hkg,2017,Regular
-hnd,1950,Regular
+hnd,1950,Outlier
 hnd,1951,Regular
 hnd,1952,Regular
 hnd,1953,Regular
@@ -4082,7 +3031,7 @@ hnd,2014,Regular
 hnd,2015,Regular
 hnd,2016,Regular
 hnd,2017,Regular
-hrv,1990,Regular
+hrv,1990,Outlier
 hrv,1991,Regular
 hrv,1992,Regular
 hrv,1993,Regular
@@ -4110,66 +3059,8 @@ hrv,2014,Regular
 hrv,2015,Regular
 hrv,2016,Regular
 hrv,2017,Regular
-hti,1960,Regular
-hti,1961,Regular
-hti,1962,Regular
-hti,1963,Regular
-hti,1964,Regular
-hti,1965,Regular
-hti,1966,Regular
-hti,1967,Regular
-hti,1968,Regular
-hti,1969,Regular
-hti,1970,Regular
-hti,1971,Regular
-hti,1972,Regular
-hti,1973,Regular
-hti,1974,Regular
-hti,1975,Regular
-hti,1976,Regular
-hti,1977,Regular
-hti,1978,Regular
-hti,1979,Regular
-hti,1980,Regular
-hti,1981,Regular
-hti,1982,Regular
-hti,1983,Regular
-hti,1984,Regular
-hti,1985,Regular
-hti,1986,Regular
-hti,1987,Regular
-hti,1988,Regular
-hti,1989,Regular
-hti,1990,Regular
-hti,1991,Regular
-hti,1992,Regular
-hti,1993,Regular
-hti,1994,Regular
-hti,1995,Regular
-hti,1996,Regular
-hti,1997,Regular
-hti,1998,Regular
-hti,1999,Regular
-hti,2000,Regular
-hti,2001,Regular
-hti,2002,Regular
-hti,2003,Regular
-hti,2004,Regular
-hti,2005,Regular
-hti,2006,Regular
-hti,2007,Regular
-hti,2008,Regular
-hti,2009,Regular
-hti,2010,Regular
-hti,2011,Regular
-hti,2012,Regular
-hti,2013,Regular
-hti,2014,Regular
-hti,2015,Regular
-hti,2016,Regular
-hti,2017,Regular
-hun,1970,Regular
-hun,1971,Regular
+hun,1970,Outlier
+hun,1971,Outlier
 hun,1972,Regular
 hun,1973,Regular
 hun,1974,Regular
@@ -4218,11 +3109,11 @@ hun,2016,Regular
 hun,2017,Regular
 idn,1960,Regular
 idn,1961,Regular
-idn,1962,Regular
+idn,1962,Outlier
 idn,1963,Regular
 idn,1964,Regular
 idn,1965,Regular
-idn,1966,Regular
+idn,1966,Outlier
 idn,1967,Regular
 idn,1968,Regular
 idn,1969,Regular
@@ -4296,15 +3187,15 @@ ind,1968,Regular
 ind,1969,Regular
 ind,1970,Regular
 ind,1971,Regular
-ind,1972,Regular
-ind,1973,Regular
-ind,1974,Regular
-ind,1975,Regular
+ind,1972,Low capital share
+ind,1973,Low capital share
+ind,1974,Low capital share
+ind,1975,Low capital share
 ind,1976,Regular
-ind,1977,Regular
+ind,1977,Low capital share
 ind,1978,Regular
 ind,1979,Regular
-ind,1980,Regular
+ind,1980,Low capital share
 ind,1981,Regular
 ind,1982,Regular
 ind,1983,Regular
@@ -4407,7 +3298,7 @@ irl,2011,Regular
 irl,2012,Regular
 irl,2013,Regular
 irl,2014,Regular
-irl,2015,Regular
+irl,2015,Outlier
 irl,2016,Regular
 irl,2017,Regular
 irn,1955,Regular
@@ -4439,7 +3330,7 @@ irn,1980,Regular
 irn,1981,Regular
 irn,1982,Regular
 irn,1983,Regular
-irn,1984,Outlier
+irn,1984,Regular
 irn,1985,Regular
 irn,1986,Regular
 irn,1987,Regular
@@ -4473,8 +3364,8 @@ irn,2014,Regular
 irn,2015,Regular
 irn,2016,Regular
 irn,2017,Regular
-irq,1970,Regular
-irq,1971,Regular
+irq,1970,Outlier
+irq,1971,Outlier
 irq,1972,Regular
 irq,1973,Regular
 irq,1974,Regular
@@ -4507,14 +3398,14 @@ irq,2000,Regular
 irq,2001,Regular
 irq,2002,Regular
 irq,2003,Regular
-irq,2004,Regular
-irq,2005,Regular
-irq,2006,Regular
-irq,2007,Regular
-irq,2008,Regular
-irq,2009,Regular
-irq,2010,Regular
-irq,2011,Regular
+irq,2004,Low capital share
+irq,2005,Low capital share
+irq,2006,Low capital share
+irq,2007,Low capital share
+irq,2008,Low capital share
+irq,2009,Low capital share
+irq,2010,Low capital share
+irq,2011,Low capital share
 irq,2012,Regular
 irq,2013,Regular
 irq,2014,Regular
@@ -4526,7 +3417,7 @@ isl,1951,Regular
 isl,1952,Regular
 isl,1953,Regular
 isl,1954,Regular
-isl,1955,Regular
+isl,1955,Outlier
 isl,1956,Regular
 isl,1957,Regular
 isl,1958,Regular
@@ -4725,8 +3616,8 @@ ita,2014,Regular
 ita,2015,Regular
 ita,2016,Regular
 ita,2017,Regular
-jam,1953,Regular
-jam,1954,Regular
+jam,1953,Outlier
+jam,1954,Outlier
 jam,1955,Regular
 jam,1956,Regular
 jam,1957,Regular
@@ -4804,7 +3695,7 @@ jor,1964,Regular
 jor,1965,Regular
 jor,1966,Regular
 jor,1967,Regular
-jor,1968,Regular
+jor,1968,Outlier
 jor,1969,Regular
 jor,1970,Regular
 jor,1971,Regular
@@ -4927,13 +3818,13 @@ kaz,1991,Regular
 kaz,1992,Regular
 kaz,1993,Regular
 kaz,1994,Regular
-kaz,1995,Regular
-kaz,1996,Regular
-kaz,1997,Regular
-kaz,1998,Regular
-kaz,1999,Regular
+kaz,1995,Lower bound
+kaz,1996,Lower bound
+kaz,1997,Lower bound
+kaz,1998,Lower bound
+kaz,1999,Lower bound
 kaz,2000,Regular
-kaz,2001,Regular
+kaz,2001,Lower bound
 kaz,2002,Regular
 kaz,2003,Regular
 kaz,2004,Regular
@@ -4950,28 +3841,28 @@ kaz,2014,Regular
 kaz,2015,Regular
 kaz,2016,Regular
 kaz,2017,Regular
-ken,1950,Regular
-ken,1951,Regular
-ken,1952,Regular
-ken,1953,Regular
-ken,1954,Regular
-ken,1955,Regular
-ken,1956,Regular
-ken,1957,Regular
-ken,1958,Regular
-ken,1959,Regular
-ken,1960,Regular
-ken,1961,Regular
-ken,1962,Regular
-ken,1963,Regular
-ken,1964,Regular
-ken,1965,Regular
-ken,1966,Regular
-ken,1967,Regular
-ken,1968,Regular
-ken,1969,Regular
-ken,1970,Regular
-ken,1971,Regular
+ken,1950,Low capital share
+ken,1951,Low capital share
+ken,1952,Low capital share
+ken,1953,Low capital share
+ken,1954,Low capital share
+ken,1955,Low capital share
+ken,1956,Low capital share
+ken,1957,Low capital share
+ken,1958,Low capital share
+ken,1959,Low capital share
+ken,1960,Low capital share
+ken,1961,Low capital share
+ken,1962,Low capital share
+ken,1963,Low capital share
+ken,1964,Low capital share
+ken,1965,Low capital share
+ken,1966,Low capital share
+ken,1967,Low capital share
+ken,1968,Low capital share
+ken,1969,Low capital share
+ken,1970,Low capital share
+ken,1971,Low capital share
 ken,1972,Regular
 ken,1973,Regular
 ken,1974,Regular
@@ -5018,13 +3909,13 @@ ken,2014,Regular
 ken,2015,Regular
 ken,2016,Regular
 ken,2017,Regular
-kgz,1990,Outlier
-kgz,1991,Outlier
+kgz,1990,Regular
+kgz,1991,Regular
 kgz,1992,Regular
 kgz,1993,Regular
 kgz,1994,Regular
-kgz,1995,Regular
-kgz,1996,Regular
+kgz,1995,Low capital share
+kgz,1996,Lower bound
 kgz,1997,Regular
 kgz,1998,Regular
 kgz,1999,Regular
@@ -5044,104 +3935,8 @@ kgz,2012,Regular
 kgz,2013,Regular
 kgz,2014,Regular
 kgz,2015,Regular
-kgz,2016,Outlier
-kgz,2017,Outlier
-khm,1970,Regular
-khm,1971,Regular
-khm,1972,Regular
-khm,1973,Regular
-khm,1974,Regular
-khm,1975,Regular
-khm,1976,Regular
-khm,1977,Regular
-khm,1978,Regular
-khm,1979,Regular
-khm,1980,Regular
-khm,1981,Regular
-khm,1982,Regular
-khm,1983,Regular
-khm,1984,Regular
-khm,1985,Regular
-khm,1986,Regular
-khm,1987,Regular
-khm,1988,Regular
-khm,1989,Regular
-khm,1990,Regular
-khm,1991,Regular
-khm,1992,Regular
-khm,1993,Regular
-khm,1994,Regular
-khm,1995,Regular
-khm,1996,Regular
-khm,1997,Regular
-khm,1998,Regular
-khm,1999,Regular
-khm,2000,Regular
-khm,2001,Regular
-khm,2002,Regular
-khm,2003,Regular
-khm,2004,Regular
-khm,2005,Regular
-khm,2006,Regular
-khm,2007,Regular
-khm,2008,Regular
-khm,2009,Regular
-khm,2010,Regular
-khm,2011,Regular
-khm,2012,Regular
-khm,2013,Regular
-khm,2014,Regular
-khm,2015,Regular
-khm,2016,Regular
-khm,2017,Regular
-kna,1970,Regular
-kna,1971,Regular
-kna,1972,Regular
-kna,1973,Regular
-kna,1974,Regular
-kna,1975,Regular
-kna,1976,Regular
-kna,1977,Regular
-kna,1978,Regular
-kna,1979,Regular
-kna,1980,Regular
-kna,1981,Regular
-kna,1982,Regular
-kna,1983,Regular
-kna,1984,Regular
-kna,1985,Regular
-kna,1986,Regular
-kna,1987,Regular
-kna,1988,Regular
-kna,1989,Regular
-kna,1990,Regular
-kna,1991,Regular
-kna,1992,Regular
-kna,1993,Regular
-kna,1994,Regular
-kna,1995,Regular
-kna,1996,Regular
-kna,1997,Regular
-kna,1998,Regular
-kna,1999,Regular
-kna,2000,Regular
-kna,2001,Regular
-kna,2002,Regular
-kna,2003,Regular
-kna,2004,Regular
-kna,2005,Regular
-kna,2006,Regular
-kna,2007,Regular
-kna,2008,Regular
-kna,2009,Regular
-kna,2010,Regular
-kna,2011,Regular
-kna,2012,Regular
-kna,2013,Regular
-kna,2014,Regular
-kna,2015,Regular
-kna,2016,Regular
-kna,2017,Regular
+kgz,2016,Regular
+kgz,2017,Regular
 kor,1953,Regular
 kor,1954,Regular
 kor,1955,Regular
@@ -5211,7 +4006,7 @@ kwt,1970,Regular
 kwt,1971,Regular
 kwt,1972,Regular
 kwt,1973,Regular
-kwt,1974,Regular
+kwt,1974,Outlier
 kwt,1975,Regular
 kwt,1976,Regular
 kwt,1977,Regular
@@ -5351,108 +4146,6 @@ lbn,2014,Regular
 lbn,2015,Regular
 lbn,2016,Regular
 lbn,2017,Regular
-lbr,1964,Regular
-lbr,1965,Regular
-lbr,1966,Regular
-lbr,1967,Regular
-lbr,1968,Regular
-lbr,1969,Regular
-lbr,1970,Regular
-lbr,1971,Regular
-lbr,1972,Regular
-lbr,1973,Regular
-lbr,1974,Regular
-lbr,1975,Regular
-lbr,1976,Regular
-lbr,1977,Regular
-lbr,1978,Regular
-lbr,1979,Regular
-lbr,1980,Regular
-lbr,1981,Regular
-lbr,1982,Regular
-lbr,1983,Regular
-lbr,1984,Regular
-lbr,1985,Regular
-lbr,1986,Regular
-lbr,1987,Regular
-lbr,1988,Regular
-lbr,1989,Regular
-lbr,1990,Regular
-lbr,1991,Regular
-lbr,1992,Regular
-lbr,1993,Regular
-lbr,1994,Regular
-lbr,1995,Regular
-lbr,1996,Regular
-lbr,1997,Regular
-lbr,1998,Regular
-lbr,1999,Regular
-lbr,2000,Regular
-lbr,2001,Regular
-lbr,2002,Regular
-lbr,2003,Regular
-lbr,2004,Regular
-lbr,2005,Regular
-lbr,2006,Regular
-lbr,2007,Regular
-lbr,2008,Regular
-lbr,2009,Regular
-lbr,2010,Regular
-lbr,2011,Regular
-lbr,2012,Regular
-lbr,2013,Regular
-lbr,2014,Regular
-lbr,2015,Regular
-lbr,2016,Regular
-lbr,2017,Regular
-lca,1970,Regular
-lca,1971,Regular
-lca,1972,Regular
-lca,1973,Regular
-lca,1974,Regular
-lca,1975,Regular
-lca,1976,Regular
-lca,1977,Regular
-lca,1978,Regular
-lca,1979,Regular
-lca,1980,Regular
-lca,1981,Regular
-lca,1982,Regular
-lca,1983,Regular
-lca,1984,Regular
-lca,1985,Regular
-lca,1986,Regular
-lca,1987,Regular
-lca,1988,Regular
-lca,1989,Regular
-lca,1990,Regular
-lca,1991,Regular
-lca,1992,Regular
-lca,1993,Regular
-lca,1994,Regular
-lca,1995,Regular
-lca,1996,Regular
-lca,1997,Regular
-lca,1998,Regular
-lca,1999,Regular
-lca,2000,Regular
-lca,2001,Regular
-lca,2002,Regular
-lca,2003,Regular
-lca,2004,Regular
-lca,2005,Regular
-lca,2006,Regular
-lca,2007,Regular
-lca,2008,Regular
-lca,2009,Regular
-lca,2010,Regular
-lca,2011,Regular
-lca,2012,Regular
-lca,2013,Regular
-lca,2014,Regular
-lca,2015,Regular
-lca,2016,Regular
-lca,2017,Regular
 lka,1950,Regular
 lka,1951,Regular
 lka,1952,Regular
@@ -5521,46 +4214,46 @@ lka,2014,Regular
 lka,2015,Regular
 lka,2016,Regular
 lka,2017,Regular
-lso,1960,Regular
-lso,1961,Regular
-lso,1962,Regular
-lso,1963,Regular
-lso,1964,Regular
-lso,1965,Regular
-lso,1966,Regular
-lso,1967,Regular
-lso,1968,Regular
-lso,1969,Regular
-lso,1970,Regular
-lso,1971,Regular
-lso,1972,Regular
-lso,1973,Regular
-lso,1974,Regular
-lso,1975,Regular
-lso,1976,Regular
-lso,1977,Regular
-lso,1978,Regular
-lso,1979,Regular
-lso,1980,Regular
-lso,1981,Regular
-lso,1982,Regular
-lso,1983,Regular
-lso,1984,Regular
-lso,1985,Regular
-lso,1986,Regular
-lso,1987,Regular
-lso,1988,Regular
-lso,1989,Regular
-lso,1990,Regular
-lso,1991,Regular
-lso,1992,Regular
-lso,1993,Regular
-lso,1994,Regular
-lso,1995,Regular
-lso,1996,Regular
-lso,1997,Regular
-lso,1998,Regular
-lso,1999,Regular
+lso,1960,Low capital share
+lso,1961,Low capital share
+lso,1962,Low capital share
+lso,1963,Low capital share
+lso,1964,Low capital share
+lso,1965,Low capital share
+lso,1966,Low capital share
+lso,1967,Low capital share
+lso,1968,Low capital share
+lso,1969,Low capital share
+lso,1970,Low capital share
+lso,1971,Low capital share
+lso,1972,Low capital share
+lso,1973,Outlier
+lso,1974,Low capital share
+lso,1975,Low capital share
+lso,1976,Lower bound
+lso,1977,Low capital share
+lso,1978,Low capital share
+lso,1979,Low capital share
+lso,1980,Lower bound
+lso,1981,Lower bound
+lso,1982,Lower bound
+lso,1983,Lower bound
+lso,1984,Lower bound
+lso,1985,Lower bound
+lso,1986,Lower bound
+lso,1987,Lower bound
+lso,1988,Lower bound
+lso,1989,Lower bound
+lso,1990,Lower bound
+lso,1991,Lower bound
+lso,1992,Lower bound
+lso,1993,Lower bound
+lso,1994,Lower bound
+lso,1995,Lower bound
+lso,1996,Lower bound
+lso,1997,Lower bound
+lso,1998,Lower bound
+lso,1999,Lower bound
 lso,2000,Regular
 lso,2001,Regular
 lso,2002,Regular
@@ -5609,7 +4302,7 @@ ltu,2016,Regular
 ltu,2017,Regular
 lux,1950,Regular
 lux,1951,Regular
-lux,1952,Regular
+lux,1952,Outlier
 lux,1953,Regular
 lux,1954,Regular
 lux,1955,Regular
@@ -5676,7 +4369,7 @@ lux,2015,Regular
 lux,2016,Regular
 lux,2017,Regular
 lva,1990,Regular
-lva,1991,Regular
+lva,1991,Outlier
 lva,1992,Regular
 lva,1993,Regular
 lva,1994,Regular
@@ -5770,7 +4463,7 @@ mar,1965,Regular
 mar,1966,Regular
 mar,1967,Regular
 mar,1968,Regular
-mar,1969,Regular
+mar,1969,Outlier
 mar,1970,Regular
 mar,1971,Regular
 mar,1972,Regular
@@ -5819,15 +4512,15 @@ mar,2014,Regular
 mar,2015,Regular
 mar,2016,Regular
 mar,2017,Regular
-mda,1990,Regular
+mda,1990,Outlier
 mda,1991,Regular
 mda,1992,Regular
 mda,1993,Regular
 mda,1994,Regular
 mda,1995,Regular
 mda,1996,Regular
-mda,1997,Regular
-mda,1998,Regular
+mda,1997,Lower bound
+mda,1998,Lower bound
 mda,1999,Regular
 mda,2000,Regular
 mda,2001,Regular
@@ -5847,112 +4540,6 @@ mda,2014,Regular
 mda,2015,Regular
 mda,2016,Regular
 mda,2017,Regular
-mdg,1960,Regular
-mdg,1961,Regular
-mdg,1962,Regular
-mdg,1963,Regular
-mdg,1964,Regular
-mdg,1965,Regular
-mdg,1966,Regular
-mdg,1967,Regular
-mdg,1968,Regular
-mdg,1969,Regular
-mdg,1970,Regular
-mdg,1971,Regular
-mdg,1972,Regular
-mdg,1973,Regular
-mdg,1974,Regular
-mdg,1975,Regular
-mdg,1976,Regular
-mdg,1977,Regular
-mdg,1978,Regular
-mdg,1979,Regular
-mdg,1980,Regular
-mdg,1981,Regular
-mdg,1982,Regular
-mdg,1983,Regular
-mdg,1984,Regular
-mdg,1985,Regular
-mdg,1986,Regular
-mdg,1987,Regular
-mdg,1988,Regular
-mdg,1989,Regular
-mdg,1990,Regular
-mdg,1991,Regular
-mdg,1992,Regular
-mdg,1993,Regular
-mdg,1994,Regular
-mdg,1995,Regular
-mdg,1996,Regular
-mdg,1997,Regular
-mdg,1998,Regular
-mdg,1999,Regular
-mdg,2000,Regular
-mdg,2001,Regular
-mdg,2002,Regular
-mdg,2003,Regular
-mdg,2004,Regular
-mdg,2005,Regular
-mdg,2006,Regular
-mdg,2007,Regular
-mdg,2008,Regular
-mdg,2009,Regular
-mdg,2010,Regular
-mdg,2011,Regular
-mdg,2012,Regular
-mdg,2013,Regular
-mdg,2014,Regular
-mdg,2015,Regular
-mdg,2016,Regular
-mdg,2017,Regular
-mdv,1970,Regular
-mdv,1971,Regular
-mdv,1972,Regular
-mdv,1973,Regular
-mdv,1974,Regular
-mdv,1975,Regular
-mdv,1976,Regular
-mdv,1977,Regular
-mdv,1978,Regular
-mdv,1979,Regular
-mdv,1980,Regular
-mdv,1981,Regular
-mdv,1982,Regular
-mdv,1983,Regular
-mdv,1984,Regular
-mdv,1985,Regular
-mdv,1986,Regular
-mdv,1987,Regular
-mdv,1988,Regular
-mdv,1989,Regular
-mdv,1990,Regular
-mdv,1991,Regular
-mdv,1992,Regular
-mdv,1993,Regular
-mdv,1994,Regular
-mdv,1995,Regular
-mdv,1996,Regular
-mdv,1997,Regular
-mdv,1998,Regular
-mdv,1999,Regular
-mdv,2000,Regular
-mdv,2001,Regular
-mdv,2002,Regular
-mdv,2003,Regular
-mdv,2004,Regular
-mdv,2005,Regular
-mdv,2006,Regular
-mdv,2007,Regular
-mdv,2008,Regular
-mdv,2009,Regular
-mdv,2010,Regular
-mdv,2011,Regular
-mdv,2012,Regular
-mdv,2013,Regular
-mdv,2014,Regular
-mdv,2015,Regular
-mdv,2016,Regular
-mdv,2017,Regular
 mex,1950,Regular
 mex,1951,Regular
 mex,1952,Regular
@@ -6021,10 +4608,10 @@ mex,2014,Regular
 mex,2015,Regular
 mex,2016,Regular
 mex,2017,Regular
-mkd,1990,Regular
-mkd,1991,Regular
+mkd,1990,Low capital share
+mkd,1991,Lower bound
 mkd,1992,Regular
-mkd,1993,Regular
+mkd,1993,Low capital share
 mkd,1994,Regular
 mkd,1995,Regular
 mkd,1996,Regular
@@ -6048,76 +4635,18 @@ mkd,2013,Regular
 mkd,2014,Regular
 mkd,2015,Regular
 mkd,2016,Regular
-mkd,2017,Regular
-mli,1960,Regular
-mli,1961,Regular
-mli,1962,Regular
-mli,1963,Regular
-mli,1964,Regular
-mli,1965,Regular
-mli,1966,Regular
-mli,1967,Regular
-mli,1968,Regular
-mli,1969,Regular
-mli,1970,Regular
-mli,1971,Regular
-mli,1972,Regular
-mli,1973,Regular
-mli,1974,Regular
-mli,1975,Regular
-mli,1976,Regular
-mli,1977,Regular
-mli,1978,Regular
-mli,1979,Regular
-mli,1980,Regular
-mli,1981,Regular
-mli,1982,Regular
-mli,1983,Regular
-mli,1984,Regular
-mli,1985,Regular
-mli,1986,Regular
-mli,1987,Regular
-mli,1988,Regular
-mli,1989,Regular
-mli,1990,Regular
-mli,1991,Regular
-mli,1992,Regular
-mli,1993,Regular
-mli,1994,Regular
-mli,1995,Regular
-mli,1996,Regular
-mli,1997,Regular
-mli,1998,Regular
-mli,1999,Regular
-mli,2000,Regular
-mli,2001,Regular
-mli,2002,Regular
-mli,2003,Regular
-mli,2004,Regular
-mli,2005,Regular
-mli,2006,Regular
-mli,2007,Regular
-mli,2008,Regular
-mli,2009,Regular
-mli,2010,Regular
-mli,2011,Regular
-mli,2012,Regular
-mli,2013,Regular
-mli,2014,Regular
-mli,2015,Regular
-mli,2016,Regular
-mli,2017,Regular
-mlt,1954,Outlier
-mlt,1955,Outlier
-mlt,1956,Outlier
-mlt,1957,Outlier
-mlt,1958,Outlier
-mlt,1959,Outlier
-mlt,1960,Outlier
-mlt,1961,Outlier
-mlt,1962,Outlier
-mlt,1963,Outlier
-mlt,1964,Outlier
+mkd,2017,Outlier
+mlt,1954,Regular
+mlt,1955,Regular
+mlt,1956,Regular
+mlt,1957,Regular
+mlt,1958,Regular
+mlt,1959,Regular
+mlt,1960,Regular
+mlt,1961,Regular
+mlt,1962,Regular
+mlt,1963,Regular
+mlt,1964,Regular
 mlt,1965,Regular
 mlt,1966,Regular
 mlt,1967,Regular
@@ -6171,90 +4700,6 @@ mlt,2014,Regular
 mlt,2015,Regular
 mlt,2016,Regular
 mlt,2017,Regular
-mmr,1962,Regular
-mmr,1963,Regular
-mmr,1964,Regular
-mmr,1965,Regular
-mmr,1966,Regular
-mmr,1967,Regular
-mmr,1968,Regular
-mmr,1969,Regular
-mmr,1970,Regular
-mmr,1971,Regular
-mmr,1972,Regular
-mmr,1973,Regular
-mmr,1974,Regular
-mmr,1975,Regular
-mmr,1976,Regular
-mmr,1977,Regular
-mmr,1978,Regular
-mmr,1979,Regular
-mmr,1980,Regular
-mmr,1981,Regular
-mmr,1982,Regular
-mmr,1983,Regular
-mmr,1984,Regular
-mmr,1985,Regular
-mmr,1986,Regular
-mmr,1987,Regular
-mmr,1988,Regular
-mmr,1989,Regular
-mmr,1990,Regular
-mmr,1991,Regular
-mmr,1992,Regular
-mmr,1993,Regular
-mmr,1994,Regular
-mmr,1995,Regular
-mmr,1996,Regular
-mmr,1997,Regular
-mmr,1998,Regular
-mmr,1999,Regular
-mmr,2000,Regular
-mmr,2001,Regular
-mmr,2002,Regular
-mmr,2003,Regular
-mmr,2004,Regular
-mmr,2005,Regular
-mmr,2006,Regular
-mmr,2007,Regular
-mmr,2008,Regular
-mmr,2009,Regular
-mmr,2010,Regular
-mmr,2011,Regular
-mmr,2012,Regular
-mmr,2013,Regular
-mmr,2014,Regular
-mmr,2015,Regular
-mmr,2016,Regular
-mmr,2017,Regular
-mne,1990,Regular
-mne,1991,Regular
-mne,1992,Regular
-mne,1993,Regular
-mne,1994,Regular
-mne,1995,Regular
-mne,1996,Regular
-mne,1997,Regular
-mne,1998,Regular
-mne,1999,Regular
-mne,2000,Regular
-mne,2001,Regular
-mne,2002,Regular
-mne,2003,Regular
-mne,2004,Regular
-mne,2005,Regular
-mne,2006,Regular
-mne,2007,Regular
-mne,2008,Regular
-mne,2009,Regular
-mne,2010,Regular
-mne,2011,Regular
-mne,2012,Regular
-mne,2013,Regular
-mne,2014,Regular
-mne,2015,Regular
-mne,2016,Regular
-mne,2017,Regular
 mng,1970,Regular
 mng,1971,Regular
 mng,1972,Regular
@@ -6275,9 +4720,9 @@ mng,1986,Regular
 mng,1987,Regular
 mng,1988,Regular
 mng,1989,Regular
-mng,1990,Regular
+mng,1990,Lower bound
 mng,1991,Regular
-mng,1992,Regular
+mng,1992,Outlier
 mng,1993,Regular
 mng,1994,Regular
 mng,1995,Regular
@@ -6294,7 +4739,7 @@ mng,2005,Regular
 mng,2006,Regular
 mng,2007,Regular
 mng,2008,Regular
-mng,2009,Regular
+mng,2009,Lower bound
 mng,2010,Regular
 mng,2011,Regular
 mng,2012,Regular
@@ -6303,38 +4748,38 @@ mng,2014,Regular
 mng,2015,Regular
 mng,2016,Regular
 mng,2017,Regular
-moz,1960,Outlier
-moz,1961,Outlier
-moz,1962,Outlier
-moz,1963,Outlier
-moz,1964,Outlier
-moz,1965,Outlier
-moz,1966,Outlier
-moz,1967,Outlier
-moz,1968,Outlier
-moz,1969,Outlier
-moz,1970,Outlier
-moz,1971,Outlier
-moz,1972,Outlier
-moz,1973,Outlier
-moz,1974,Outlier
-moz,1975,Outlier
-moz,1976,Outlier
-moz,1977,Outlier
-moz,1978,Outlier
-moz,1979,Outlier
-moz,1980,Outlier
-moz,1981,Outlier
-moz,1982,Outlier
-moz,1983,Outlier
-moz,1984,Outlier
-moz,1985,Outlier
-moz,1986,Outlier
-moz,1987,Outlier
-moz,1988,Outlier
-moz,1989,Outlier
-moz,1990,Outlier
-moz,1991,Outlier
+moz,1960,Regular
+moz,1961,Regular
+moz,1962,Regular
+moz,1963,Regular
+moz,1964,Regular
+moz,1965,Regular
+moz,1966,Regular
+moz,1967,Regular
+moz,1968,Regular
+moz,1969,Regular
+moz,1970,Regular
+moz,1971,Regular
+moz,1972,Regular
+moz,1973,Regular
+moz,1974,Regular
+moz,1975,Regular
+moz,1976,Regular
+moz,1977,Regular
+moz,1978,Regular
+moz,1979,Regular
+moz,1980,Regular
+moz,1981,Regular
+moz,1982,Regular
+moz,1983,Regular
+moz,1984,Regular
+moz,1985,Regular
+moz,1986,Regular
+moz,1987,Regular
+moz,1988,Regular
+moz,1989,Regular
+moz,1990,Regular
+moz,1991,Regular
 moz,1992,Regular
 moz,1993,Regular
 moz,1994,Regular
@@ -6361,20 +4806,20 @@ moz,2014,Regular
 moz,2015,Regular
 moz,2016,Regular
 moz,2017,Regular
-mrt,1960,Regular
-mrt,1961,Regular
-mrt,1962,Regular
-mrt,1963,Regular
-mrt,1964,Regular
-mrt,1965,Regular
-mrt,1966,Regular
-mrt,1967,Regular
-mrt,1968,Regular
-mrt,1969,Regular
-mrt,1970,Regular
-mrt,1971,Regular
-mrt,1972,Regular
-mrt,1973,Regular
+mrt,1960,Low capital share
+mrt,1961,Low capital share
+mrt,1962,Low capital share
+mrt,1963,Low capital share
+mrt,1964,Low capital share
+mrt,1965,Low capital share
+mrt,1966,Low capital share
+mrt,1967,Low capital share
+mrt,1968,Low capital share
+mrt,1969,Low capital share
+mrt,1970,Low capital share
+mrt,1971,Low capital share
+mrt,1972,Low capital share
+mrt,1973,Low capital share
 mrt,1974,Regular
 mrt,1975,Regular
 mrt,1976,Regular
@@ -6403,70 +4848,22 @@ mrt,1998,Regular
 mrt,1999,Regular
 mrt,2000,Regular
 mrt,2001,Regular
-mrt,2002,Regular
-mrt,2003,Regular
-mrt,2004,Regular
-mrt,2005,Regular
-mrt,2006,Regular
-mrt,2007,Regular
-mrt,2008,Regular
-mrt,2009,Regular
-mrt,2010,Regular
-mrt,2011,Regular
-mrt,2012,Regular
-mrt,2013,Regular
-mrt,2014,Regular
-mrt,2015,Regular
-mrt,2016,Regular
+mrt,2002,Low capital share
+mrt,2003,Low capital share
+mrt,2004,Low capital share
+mrt,2005,Lower bound
+mrt,2006,Low capital share
+mrt,2007,Low capital share
+mrt,2008,Lower bound
+mrt,2009,Lower bound
+mrt,2010,Lower bound
+mrt,2011,Low capital share
+mrt,2012,Lower bound
+mrt,2013,Lower bound
+mrt,2014,Lower bound
+mrt,2015,Lower bound
+mrt,2016,Lower bound
 mrt,2017,Regular
-msr,1970,Regular
-msr,1971,Regular
-msr,1972,Regular
-msr,1973,Regular
-msr,1974,Regular
-msr,1975,Regular
-msr,1976,Regular
-msr,1977,Regular
-msr,1978,Regular
-msr,1979,Regular
-msr,1980,Regular
-msr,1981,Regular
-msr,1982,Regular
-msr,1983,Regular
-msr,1984,Regular
-msr,1985,Regular
-msr,1986,Regular
-msr,1987,Regular
-msr,1988,Regular
-msr,1989,Regular
-msr,1990,Regular
-msr,1991,Regular
-msr,1992,Regular
-msr,1993,Regular
-msr,1994,Regular
-msr,1995,Regular
-msr,1996,Regular
-msr,1997,Regular
-msr,1998,Regular
-msr,1999,Regular
-msr,2000,Regular
-msr,2001,Regular
-msr,2002,Regular
-msr,2003,Regular
-msr,2004,Regular
-msr,2005,Regular
-msr,2006,Regular
-msr,2007,Regular
-msr,2008,Regular
-msr,2009,Regular
-msr,2010,Regular
-msr,2011,Regular
-msr,2012,Regular
-msr,2013,Regular
-msr,2014,Regular
-msr,2015,Regular
-msr,2016,Regular
-msr,2017,Regular
 mus,1950,Regular
 mus,1951,Regular
 mus,1952,Regular
@@ -6535,70 +4932,6 @@ mus,2014,Regular
 mus,2015,Regular
 mus,2016,Regular
 mus,2017,Regular
-mwi,1954,Regular
-mwi,1955,Regular
-mwi,1956,Regular
-mwi,1957,Regular
-mwi,1958,Regular
-mwi,1959,Regular
-mwi,1960,Regular
-mwi,1961,Regular
-mwi,1962,Regular
-mwi,1963,Regular
-mwi,1964,Regular
-mwi,1965,Regular
-mwi,1966,Regular
-mwi,1967,Regular
-mwi,1968,Regular
-mwi,1969,Regular
-mwi,1970,Regular
-mwi,1971,Regular
-mwi,1972,Regular
-mwi,1973,Regular
-mwi,1974,Regular
-mwi,1975,Regular
-mwi,1976,Regular
-mwi,1977,Regular
-mwi,1978,Regular
-mwi,1979,Regular
-mwi,1980,Regular
-mwi,1981,Regular
-mwi,1982,Regular
-mwi,1983,Regular
-mwi,1984,Regular
-mwi,1985,Regular
-mwi,1986,Regular
-mwi,1987,Regular
-mwi,1988,Regular
-mwi,1989,Regular
-mwi,1990,Regular
-mwi,1991,Regular
-mwi,1992,Regular
-mwi,1993,Regular
-mwi,1994,Regular
-mwi,1995,Regular
-mwi,1996,Regular
-mwi,1997,Regular
-mwi,1998,Regular
-mwi,1999,Regular
-mwi,2000,Regular
-mwi,2001,Regular
-mwi,2002,Regular
-mwi,2003,Regular
-mwi,2004,Regular
-mwi,2005,Regular
-mwi,2006,Regular
-mwi,2007,Regular
-mwi,2008,Regular
-mwi,2009,Regular
-mwi,2010,Regular
-mwi,2011,Regular
-mwi,2012,Regular
-mwi,2013,Regular
-mwi,2014,Regular
-mwi,2015,Regular
-mwi,2016,Regular
-mwi,2017,Regular
 mys,1955,Regular
 mys,1956,Regular
 mys,1957,Regular
@@ -6766,7 +5099,7 @@ ner,2002,Regular
 ner,2003,Regular
 ner,2004,Regular
 ner,2005,Regular
-ner,2006,Regular
+ner,2006,Low capital share
 ner,2007,Regular
 ner,2008,Regular
 ner,2009,Regular
@@ -6819,19 +5152,19 @@ nga,1987,Regular
 nga,1988,Regular
 nga,1989,Regular
 nga,1990,Regular
-nga,1991,Outlier
-nga,1992,Outlier
-nga,1993,Outlier
-nga,1994,Outlier
-nga,1995,Outlier
-nga,1996,Outlier
-nga,1997,Outlier
-nga,1998,Outlier
+nga,1991,Regular
+nga,1992,Regular
+nga,1993,Regular
+nga,1994,Regular
+nga,1995,Regular
+nga,1996,Regular
+nga,1997,Regular
+nga,1998,Regular
 nga,1999,Regular
 nga,2000,Regular
-nga,2001,Regular
-nga,2002,Regular
-nga,2003,Regular
+nga,2001,Lower bound
+nga,2002,Lower bound
+nga,2003,Lower bound
 nga,2004,Regular
 nga,2005,Regular
 nga,2006,Regular
@@ -7020,7 +5353,7 @@ nor,1984,Regular
 nor,1985,Regular
 nor,1986,Regular
 nor,1987,Regular
-nor,1988,Regular
+nor,1988,Outlier
 nor,1989,Regular
 nor,1990,Regular
 nor,1991,Regular
@@ -7038,7 +5371,7 @@ nor,2002,Regular
 nor,2003,Regular
 nor,2004,Regular
 nor,2005,Regular
-nor,2006,Regular
+nor,2006,Outlier
 nor,2007,Regular
 nor,2008,Regular
 nor,2009,Regular
@@ -7050,64 +5383,6 @@ nor,2014,Regular
 nor,2015,Regular
 nor,2016,Regular
 nor,2017,Regular
-npl,1960,Regular
-npl,1961,Regular
-npl,1962,Regular
-npl,1963,Regular
-npl,1964,Regular
-npl,1965,Regular
-npl,1966,Regular
-npl,1967,Regular
-npl,1968,Regular
-npl,1969,Regular
-npl,1970,Regular
-npl,1971,Regular
-npl,1972,Regular
-npl,1973,Regular
-npl,1974,Regular
-npl,1975,Regular
-npl,1976,Regular
-npl,1977,Regular
-npl,1978,Regular
-npl,1979,Regular
-npl,1980,Regular
-npl,1981,Regular
-npl,1982,Regular
-npl,1983,Regular
-npl,1984,Regular
-npl,1985,Regular
-npl,1986,Regular
-npl,1987,Regular
-npl,1988,Regular
-npl,1989,Regular
-npl,1990,Regular
-npl,1991,Regular
-npl,1992,Regular
-npl,1993,Regular
-npl,1994,Regular
-npl,1995,Regular
-npl,1996,Regular
-npl,1997,Regular
-npl,1998,Regular
-npl,1999,Regular
-npl,2000,Regular
-npl,2001,Regular
-npl,2002,Regular
-npl,2003,Regular
-npl,2004,Regular
-npl,2005,Regular
-npl,2006,Regular
-npl,2007,Regular
-npl,2008,Regular
-npl,2009,Regular
-npl,2010,Regular
-npl,2011,Regular
-npl,2012,Regular
-npl,2013,Regular
-npl,2014,Regular
-npl,2015,Regular
-npl,2016,Regular
-npl,2017,Regular
 nzl,1950,Regular
 nzl,1951,Regular
 nzl,1952,Regular
@@ -7176,7 +5451,7 @@ nzl,2014,Regular
 nzl,2015,Regular
 nzl,2016,Regular
 nzl,2017,Regular
-omn,1970,Regular
+omn,1970,Outlier
 omn,1971,Regular
 omn,1972,Regular
 omn,1973,Regular
@@ -7224,74 +5499,6 @@ omn,2014,Regular
 omn,2015,Regular
 omn,2016,Regular
 omn,2017,Regular
-pak,1950,Regular
-pak,1951,Regular
-pak,1952,Regular
-pak,1953,Regular
-pak,1954,Regular
-pak,1955,Regular
-pak,1956,Regular
-pak,1957,Regular
-pak,1958,Regular
-pak,1959,Regular
-pak,1960,Regular
-pak,1961,Regular
-pak,1962,Regular
-pak,1963,Regular
-pak,1964,Regular
-pak,1965,Regular
-pak,1966,Regular
-pak,1967,Regular
-pak,1968,Regular
-pak,1969,Regular
-pak,1970,Regular
-pak,1971,Regular
-pak,1972,Regular
-pak,1973,Regular
-pak,1974,Regular
-pak,1975,Regular
-pak,1976,Regular
-pak,1977,Regular
-pak,1978,Regular
-pak,1979,Regular
-pak,1980,Regular
-pak,1981,Regular
-pak,1982,Regular
-pak,1983,Regular
-pak,1984,Regular
-pak,1985,Regular
-pak,1986,Regular
-pak,1987,Regular
-pak,1988,Regular
-pak,1989,Regular
-pak,1990,Regular
-pak,1991,Regular
-pak,1992,Regular
-pak,1993,Regular
-pak,1994,Regular
-pak,1995,Regular
-pak,1996,Regular
-pak,1997,Regular
-pak,1998,Regular
-pak,1999,Regular
-pak,2000,Regular
-pak,2001,Regular
-pak,2002,Regular
-pak,2003,Regular
-pak,2004,Regular
-pak,2005,Regular
-pak,2006,Regular
-pak,2007,Regular
-pak,2008,Regular
-pak,2009,Regular
-pak,2010,Regular
-pak,2011,Regular
-pak,2012,Regular
-pak,2013,Regular
-pak,2014,Regular
-pak,2015,Regular
-pak,2016,Regular
-pak,2017,Regular
 pan,1950,Regular
 pan,1951,Regular
 pan,1952,Regular
@@ -7381,13 +5588,13 @@ per,1967,Regular
 per,1968,Regular
 per,1969,Regular
 per,1970,Regular
-per,1971,Regular
-per,1972,Regular
-per,1973,Regular
-per,1974,Regular
-per,1975,Regular
-per,1976,Regular
-per,1977,Regular
+per,1971,Low capital share
+per,1972,Low capital share
+per,1973,Low capital share
+per,1974,Low capital share
+per,1975,Low capital share
+per,1976,Low capital share
+per,1977,Low capital share
 per,1978,Regular
 per,1979,Regular
 per,1980,Regular
@@ -7679,66 +5886,18 @@ pry,2014,Regular
 pry,2015,Regular
 pry,2016,Regular
 pry,2017,Regular
-pse,1970,Regular
-pse,1971,Regular
-pse,1972,Regular
-pse,1973,Regular
-pse,1974,Regular
-pse,1975,Regular
-pse,1976,Regular
-pse,1977,Regular
-pse,1978,Regular
-pse,1979,Regular
-pse,1980,Regular
-pse,1981,Regular
-pse,1982,Regular
-pse,1983,Regular
-pse,1984,Regular
-pse,1985,Regular
-pse,1986,Regular
-pse,1987,Regular
-pse,1988,Regular
-pse,1989,Regular
-pse,1990,Regular
-pse,1991,Regular
-pse,1992,Regular
-pse,1993,Regular
-pse,1994,Regular
-pse,1995,Regular
-pse,1996,Regular
-pse,1997,Regular
-pse,1998,Regular
-pse,1999,Regular
-pse,2000,Regular
-pse,2001,Regular
-pse,2002,Regular
-pse,2003,Regular
-pse,2004,Regular
-pse,2005,Regular
-pse,2006,Regular
-pse,2007,Regular
-pse,2008,Regular
-pse,2009,Regular
-pse,2010,Regular
-pse,2011,Regular
-pse,2012,Regular
-pse,2013,Regular
-pse,2014,Regular
-pse,2015,Regular
-pse,2016,Regular
-pse,2017,Regular
-qat,1970,Regular
-qat,1971,Regular
+qat,1970,Outlier
+qat,1971,Outlier
 qat,1972,Regular
 qat,1973,Regular
 qat,1974,Regular
 qat,1975,Regular
 qat,1976,Regular
 qat,1977,Regular
-qat,1978,Regular
-qat,1979,Regular
-qat,1980,Regular
-qat,1981,Regular
+qat,1978,Low capital share
+qat,1979,Low capital share
+qat,1980,Low capital share
+qat,1981,Low capital share
 qat,1982,Regular
 qat,1983,Regular
 qat,1984,Regular
@@ -7833,26 +5992,26 @@ rou,2014,Regular
 rou,2015,Regular
 rou,2016,Regular
 rou,2017,Regular
-rus,1990,Regular
-rus,1991,Regular
+rus,1990,Outlier
+rus,1991,Outlier
 rus,1992,Regular
 rus,1993,Regular
-rus,1994,Regular
-rus,1995,Regular
-rus,1996,Regular
-rus,1997,Regular
-rus,1998,Regular
-rus,1999,Regular
-rus,2000,Regular
-rus,2001,Regular
-rus,2002,Regular
-rus,2003,Regular
-rus,2004,Regular
+rus,1994,Lower bound
+rus,1995,Lower bound
+rus,1996,Lower bound
+rus,1997,Lower bound
+rus,1998,Lower bound
+rus,1999,Lower bound
+rus,2000,Lower bound
+rus,2001,Lower bound
+rus,2002,Lower bound
+rus,2003,Lower bound
+rus,2004,Lower bound
 rus,2005,Regular
 rus,2006,Regular
 rus,2007,Regular
 rus,2008,Regular
-rus,2009,Regular
+rus,2009,Lower bound
 rus,2010,Regular
 rus,2011,Regular
 rus,2012,Regular
@@ -7861,69 +6020,69 @@ rus,2014,Regular
 rus,2015,Regular
 rus,2016,Regular
 rus,2017,Regular
-rwa,1960,Regular
-rwa,1961,Regular
-rwa,1962,Regular
-rwa,1963,Regular
-rwa,1964,Regular
-rwa,1965,Regular
-rwa,1966,Regular
-rwa,1967,Regular
-rwa,1968,Regular
-rwa,1969,Regular
-rwa,1970,Regular
-rwa,1971,Regular
-rwa,1972,Regular
-rwa,1973,Regular
-rwa,1974,Regular
-rwa,1975,Regular
-rwa,1976,Regular
-rwa,1977,Regular
-rwa,1978,Regular
-rwa,1979,Regular
-rwa,1980,Regular
-rwa,1981,Regular
-rwa,1982,Regular
-rwa,1983,Regular
-rwa,1984,Regular
-rwa,1985,Regular
-rwa,1986,Regular
-rwa,1987,Regular
-rwa,1988,Regular
-rwa,1989,Regular
-rwa,1990,Regular
-rwa,1991,Regular
-rwa,1992,Regular
-rwa,1993,Regular
-rwa,1994,Regular
-rwa,1995,Regular
-rwa,1996,Regular
-rwa,1997,Regular
-rwa,1998,Regular
-rwa,1999,Regular
-rwa,2000,Regular
-rwa,2001,Regular
-rwa,2002,Regular
-rwa,2003,Regular
-rwa,2004,Regular
-rwa,2005,Regular
-rwa,2006,Regular
-rwa,2007,Regular
-rwa,2008,Regular
-rwa,2009,Regular
-rwa,2010,Regular
-rwa,2011,Regular
-rwa,2012,Regular
-rwa,2013,Regular
-rwa,2014,Regular
-rwa,2015,Regular
-rwa,2016,Regular
-rwa,2017,Regular
-sau,1970,Regular
-sau,1971,Regular
-sau,1972,Regular
-sau,1973,Regular
-sau,1974,Regular
+rwa,1960,Low capital share
+rwa,1961,Low capital share
+rwa,1962,Low capital share
+rwa,1963,Low capital share
+rwa,1964,Low capital share
+rwa,1965,Low capital share
+rwa,1966,Low capital share
+rwa,1967,Low capital share
+rwa,1968,Low capital share
+rwa,1969,Low capital share
+rwa,1970,Low capital share
+rwa,1971,Low capital share
+rwa,1972,Low capital share
+rwa,1973,Low capital share
+rwa,1974,Low capital share
+rwa,1975,Low capital share
+rwa,1976,Low capital share
+rwa,1977,Low capital share
+rwa,1978,Low capital share
+rwa,1979,Low capital share
+rwa,1980,Low capital share
+rwa,1981,Low capital share
+rwa,1982,Low capital share
+rwa,1983,Outlier
+rwa,1984,Outlier
+rwa,1985,Low capital share
+rwa,1986,Low capital share
+rwa,1987,Low capital share
+rwa,1988,Low capital share
+rwa,1989,Low capital share
+rwa,1990,Low capital share
+rwa,1991,Low capital share
+rwa,1992,Low capital share
+rwa,1993,Low capital share
+rwa,1994,Lower bound
+rwa,1995,Low capital share
+rwa,1996,Low capital share
+rwa,1997,Low capital share
+rwa,1998,Low capital share
+rwa,1999,Low capital share
+rwa,2000,Low capital share
+rwa,2001,Low capital share
+rwa,2002,Low capital share
+rwa,2003,Low capital share
+rwa,2004,Low capital share
+rwa,2005,Low capital share
+rwa,2006,Low capital share
+rwa,2007,Low capital share
+rwa,2008,Low capital share
+rwa,2009,Low capital share
+rwa,2010,Low capital share
+rwa,2011,Low capital share
+rwa,2012,Low capital share
+rwa,2013,Low capital share
+rwa,2014,Low capital share
+rwa,2015,Low capital share
+rwa,2016,Low capital share
+rwa,2017,Low capital share
+sau,1970,Outlier
+sau,1971,Outlier
+sau,1972,Outlier
+sau,1973,Outlier
+sau,1974,Outlier
 sau,1975,Regular
 sau,1976,Regular
 sau,1977,Regular
@@ -7967,60 +6126,60 @@ sau,2014,Regular
 sau,2015,Regular
 sau,2016,Regular
 sau,2017,Regular
-sdn,1970,Regular
-sdn,1971,Regular
-sdn,1972,Regular
-sdn,1973,Regular
-sdn,1974,Regular
-sdn,1975,Regular
-sdn,1976,Regular
-sdn,1977,Regular
-sdn,1978,Regular
-sdn,1979,Regular
-sdn,1980,Regular
-sdn,1981,Regular
-sdn,1982,Regular
-sdn,1983,Regular
-sdn,1984,Regular
-sdn,1985,Regular
-sdn,1986,Regular
-sdn,1987,Regular
-sdn,1988,Regular
-sdn,1989,Regular
-sdn,1990,Regular
-sdn,1991,Regular
-sdn,1992,Regular
-sdn,1993,Regular
-sdn,1994,Regular
-sdn,1995,Regular
-sdn,1996,Regular
-sdn,1997,Regular
-sdn,1998,Regular
-sdn,1999,Regular
-sdn,2000,Regular
-sdn,2001,Regular
-sdn,2002,Regular
-sdn,2003,Regular
-sdn,2004,Regular
-sdn,2005,Regular
-sdn,2006,Regular
-sdn,2007,Regular
-sdn,2008,Regular
-sdn,2009,Regular
-sdn,2010,Regular
-sdn,2011,Regular
-sdn,2012,Regular
-sdn,2013,Regular
-sdn,2014,Regular
+sdn,1970,Low capital share
+sdn,1971,Low capital share
+sdn,1972,Low capital share
+sdn,1973,Low capital share
+sdn,1974,Low capital share
+sdn,1975,Low capital share
+sdn,1976,Low capital share
+sdn,1977,Low capital share
+sdn,1978,Low capital share
+sdn,1979,Low capital share
+sdn,1980,Low capital share
+sdn,1981,Low capital share
+sdn,1982,Low capital share
+sdn,1983,Low capital share
+sdn,1984,Lower bound
+sdn,1985,Low capital share
+sdn,1986,Low capital share
+sdn,1987,Low capital share
+sdn,1988,Low capital share
+sdn,1989,Low capital share
+sdn,1990,Low capital share
+sdn,1991,Low capital share
+sdn,1992,Low capital share
+sdn,1993,Low capital share
+sdn,1994,Low capital share
+sdn,1995,Outlier
+sdn,1996,Low capital share
+sdn,1997,Low capital share
+sdn,1998,Low capital share
+sdn,1999,Low capital share
+sdn,2000,Low capital share
+sdn,2001,Low capital share
+sdn,2002,Low capital share
+sdn,2003,Low capital share
+sdn,2004,Low capital share
+sdn,2005,Low capital share
+sdn,2006,Low capital share
+sdn,2007,Low capital share
+sdn,2008,Low capital share
+sdn,2009,Low capital share
+sdn,2010,Low capital share
+sdn,2011,Low capital share
+sdn,2012,Low capital share
+sdn,2013,Low capital share
+sdn,2014,Low capital share
 sdn,2015,Regular
 sdn,2016,Regular
 sdn,2017,Regular
 sen,1960,Regular
 sen,1961,Regular
 sen,1962,Regular
-sen,1963,Regular
-sen,1964,Regular
-sen,1965,Regular
+sen,1963,Outlier
+sen,1964,Outlier
+sen,1965,Outlier
 sen,1966,Regular
 sen,1967,Regular
 sen,1968,Regular
@@ -8186,84 +6345,16 @@ sle,2012,Regular
 sle,2013,Regular
 sle,2014,Regular
 sle,2015,Regular
-sle,2016,Regular
-sle,2017,Regular
-slv,1950,Regular
-slv,1951,Regular
-slv,1952,Regular
-slv,1953,Regular
-slv,1954,Regular
-slv,1955,Regular
-slv,1956,Regular
-slv,1957,Regular
-slv,1958,Regular
-slv,1959,Regular
-slv,1960,Regular
-slv,1961,Regular
-slv,1962,Regular
-slv,1963,Regular
-slv,1964,Regular
-slv,1965,Regular
-slv,1966,Regular
-slv,1967,Regular
-slv,1968,Regular
-slv,1969,Regular
-slv,1970,Regular
-slv,1971,Regular
-slv,1972,Regular
-slv,1973,Regular
-slv,1974,Regular
-slv,1975,Regular
-slv,1976,Regular
-slv,1977,Regular
-slv,1978,Regular
-slv,1979,Regular
-slv,1980,Regular
-slv,1981,Regular
-slv,1982,Regular
-slv,1983,Regular
-slv,1984,Regular
-slv,1985,Regular
-slv,1986,Regular
-slv,1987,Regular
-slv,1988,Regular
-slv,1989,Regular
-slv,1990,Regular
-slv,1991,Regular
-slv,1992,Regular
-slv,1993,Regular
-slv,1994,Regular
-slv,1995,Regular
-slv,1996,Regular
-slv,1997,Regular
-slv,1998,Regular
-slv,1999,Regular
-slv,2000,Regular
-slv,2001,Regular
-slv,2002,Regular
-slv,2003,Regular
-slv,2004,Regular
-slv,2005,Regular
-slv,2006,Regular
-slv,2007,Regular
-slv,2008,Regular
-slv,2009,Regular
-slv,2010,Regular
-slv,2011,Regular
-slv,2012,Regular
-slv,2013,Regular
-slv,2014,Regular
-slv,2015,Regular
-slv,2016,Regular
-slv,2017,Regular
-srb,1990,Regular
-srb,1991,Regular
-srb,1992,Regular
-srb,1993,Regular
-srb,1994,Regular
-srb,1995,Regular
-srb,1996,Regular
-srb,1997,Regular
+sle,2016,Low capital share
+sle,2017,Low capital share
+srb,1990,Low capital share
+srb,1991,Low capital share
+srb,1992,Lower bound
+srb,1993,Lower bound
+srb,1994,Lower bound
+srb,1995,Lower bound
+srb,1996,Lower bound
+srb,1997,Lower bound
 srb,1998,Regular
 srb,1999,Regular
 srb,2000,Regular
@@ -8284,54 +6375,54 @@ srb,2014,Regular
 srb,2015,Regular
 srb,2016,Regular
 srb,2017,Regular
-stp,1970,Regular
-stp,1971,Regular
-stp,1972,Regular
-stp,1973,Regular
-stp,1974,Regular
-stp,1975,Regular
-stp,1976,Regular
-stp,1977,Regular
-stp,1978,Regular
-stp,1979,Regular
-stp,1980,Regular
-stp,1981,Regular
-stp,1982,Regular
-stp,1983,Regular
-stp,1984,Regular
-stp,1985,Regular
-stp,1986,Regular
-stp,1987,Regular
-stp,1988,Regular
-stp,1989,Regular
-stp,1990,Regular
-stp,1991,Regular
-stp,1992,Regular
-stp,1993,Regular
-stp,1994,Regular
-stp,1995,Regular
-stp,1996,Regular
-stp,1997,Regular
-stp,1998,Regular
-stp,1999,Regular
-stp,2000,Regular
-stp,2001,Regular
-stp,2002,Regular
-stp,2003,Regular
-stp,2004,Regular
-stp,2005,Regular
-stp,2006,Regular
-stp,2007,Regular
-stp,2008,Regular
-stp,2009,Regular
-stp,2010,Regular
-stp,2011,Regular
-stp,2012,Regular
-stp,2013,Regular
-stp,2014,Regular
-stp,2015,Regular
-stp,2016,Regular
-stp,2017,Regular
+stp,1970,Low capital share
+stp,1971,Low capital share
+stp,1972,Low capital share
+stp,1973,Low capital share
+stp,1974,Low capital share
+stp,1975,Low capital share
+stp,1976,Low capital share
+stp,1977,Low capital share
+stp,1978,Low capital share
+stp,1979,Low capital share
+stp,1980,Outlier
+stp,1981,Low capital share
+stp,1982,Low capital share
+stp,1983,Low capital share
+stp,1984,Low capital share
+stp,1985,Low capital share
+stp,1986,Low capital share
+stp,1987,Low capital share
+stp,1988,Low capital share
+stp,1989,Low capital share
+stp,1990,Low capital share
+stp,1991,Low capital share
+stp,1992,Low capital share
+stp,1993,Low capital share
+stp,1994,Lower bound
+stp,1995,Lower bound
+stp,1996,Lower bound
+stp,1997,Lower bound
+stp,1998,Lower bound
+stp,1999,Lower bound
+stp,2000,Lower bound
+stp,2001,Low capital share
+stp,2002,Low capital share
+stp,2003,Low capital share
+stp,2004,Low capital share
+stp,2005,Low capital share
+stp,2006,Low capital share
+stp,2007,Low capital share
+stp,2008,Low capital share
+stp,2009,Low capital share
+stp,2010,Lower bound
+stp,2011,Lower bound
+stp,2012,Lower bound
+stp,2013,Lower bound
+stp,2014,Lower bound
+stp,2015,Lower bound
+stp,2016,Lower bound
+stp,2017,Lower bound
 sur,1970,Regular
 sur,1971,Regular
 sur,1972,Regular
@@ -8374,12 +6465,12 @@ sur,2008,Regular
 sur,2009,Regular
 sur,2010,Regular
 sur,2011,Regular
-sur,2012,Regular
-sur,2013,Regular
-sur,2014,Regular
-sur,2015,Regular
-sur,2016,Regular
-sur,2017,Regular
+sur,2012,Lower bound
+sur,2013,Lower bound
+sur,2014,Lower bound
+sur,2015,Lower bound
+sur,2016,Lower bound
+sur,2017,Lower bound
 svk,1990,Regular
 svk,1991,Regular
 svk,1992,Regular
@@ -8437,7 +6528,7 @@ svn,2015,Regular
 svn,2016,Regular
 svn,2017,Regular
 swe,1950,Regular
-swe,1951,Regular
+swe,1951,Outlier
 swe,1952,Regular
 swe,1953,Regular
 swe,1954,Regular
@@ -8504,24 +6595,24 @@ swe,2014,Regular
 swe,2015,Regular
 swe,2016,Regular
 swe,2017,Regular
-swz,1970,Regular
-swz,1971,Regular
-swz,1972,Regular
-swz,1973,Regular
-swz,1974,Regular
-swz,1975,Regular
-swz,1976,Regular
-swz,1977,Regular
-swz,1978,Regular
-swz,1979,Regular
-swz,1980,Regular
-swz,1981,Regular
-swz,1982,Regular
-swz,1983,Regular
-swz,1984,Regular
-swz,1985,Regular
+swz,1970,Low capital share
+swz,1971,Low capital share
+swz,1972,Low capital share
+swz,1973,Low capital share
+swz,1974,Low capital share
+swz,1975,Low capital share
+swz,1976,Low capital share
+swz,1977,Low capital share
+swz,1978,Low capital share
+swz,1979,Lower bound
+swz,1980,Lower bound
+swz,1981,Lower bound
+swz,1982,Low capital share
+swz,1983,Low capital share
+swz,1984,Low capital share
+swz,1985,Low capital share
 swz,1986,Regular
-swz,1987,Regular
+swz,1987,Outlier
 swz,1988,Regular
 swz,1989,Regular
 swz,1990,Regular
@@ -8552,184 +6643,7 @@ swz,2014,Regular
 swz,2015,Regular
 swz,2016,Regular
 swz,2017,Regular
-sxm,2005,Regular
-sxm,2006,Regular
-sxm,2007,Regular
-sxm,2008,Regular
-sxm,2009,Regular
-sxm,2010,Regular
-sxm,2011,Regular
-sxm,2012,Regular
-sxm,2013,Regular
-sxm,2014,Regular
-sxm,2015,Regular
-sxm,2016,Regular
-sxm,2017,Regular
-syc,1960,Regular
-syc,1961,Regular
-syc,1962,Regular
-syc,1963,Regular
-syc,1964,Regular
-syc,1965,Regular
-syc,1966,Regular
-syc,1967,Regular
-syc,1968,Regular
-syc,1969,Regular
-syc,1970,Regular
-syc,1971,Regular
-syc,1972,Regular
-syc,1973,Regular
-syc,1974,Regular
-syc,1975,Regular
-syc,1976,Regular
-syc,1977,Regular
-syc,1978,Regular
-syc,1979,Regular
-syc,1980,Regular
-syc,1981,Regular
-syc,1982,Regular
-syc,1983,Regular
-syc,1984,Regular
-syc,1985,Regular
-syc,1986,Regular
-syc,1987,Regular
-syc,1988,Regular
-syc,1989,Regular
-syc,1990,Regular
-syc,1991,Regular
-syc,1992,Regular
-syc,1993,Regular
-syc,1994,Regular
-syc,1995,Regular
-syc,1996,Regular
-syc,1997,Regular
-syc,1998,Regular
-syc,1999,Regular
-syc,2000,Regular
-syc,2001,Regular
-syc,2002,Regular
-syc,2003,Regular
-syc,2004,Regular
-syc,2005,Regular
-syc,2006,Regular
-syc,2007,Regular
-syc,2008,Regular
-syc,2009,Regular
-syc,2010,Regular
-syc,2011,Regular
-syc,2012,Regular
-syc,2013,Regular
-syc,2014,Regular
-syc,2015,Regular
-syc,2016,Regular
-syc,2017,Regular
-syr,1960,Regular
-syr,1961,Regular
-syr,1962,Regular
-syr,1963,Regular
-syr,1964,Regular
-syr,1965,Regular
-syr,1966,Regular
-syr,1967,Regular
-syr,1968,Regular
-syr,1969,Regular
-syr,1970,Regular
-syr,1971,Regular
-syr,1972,Regular
-syr,1973,Regular
-syr,1974,Regular
-syr,1975,Regular
-syr,1976,Regular
-syr,1977,Regular
-syr,1978,Regular
-syr,1979,Regular
-syr,1980,Regular
-syr,1981,Regular
-syr,1982,Regular
-syr,1983,Outlier
-syr,1984,Outlier
-syr,1985,Regular
-syr,1986,Regular
-syr,1987,Regular
-syr,1988,Regular
-syr,1989,Regular
-syr,1990,Regular
-syr,1991,Regular
-syr,1992,Outlier
-syr,1993,Outlier
-syr,1994,Outlier
-syr,1995,Outlier
-syr,1996,Outlier
-syr,1997,Regular
-syr,1998,Regular
-syr,1999,Regular
-syr,2000,Regular
-syr,2001,Regular
-syr,2002,Regular
-syr,2003,Regular
-syr,2004,Regular
-syr,2005,Regular
-syr,2006,Regular
-syr,2007,Regular
-syr,2008,Regular
-syr,2009,Regular
-syr,2010,Regular
-syr,2011,Regular
-syr,2012,Regular
-syr,2013,Regular
-syr,2014,Regular
-syr,2015,Regular
-syr,2016,Regular
-syr,2017,Regular
-tca,1970,Outlier
-tca,1971,Outlier
-tca,1972,Outlier
-tca,1973,Outlier
-tca,1974,Regular
-tca,1975,Regular
-tca,1976,Regular
-tca,1977,Regular
-tca,1978,Regular
-tca,1979,Regular
-tca,1980,Regular
-tca,1981,Regular
-tca,1982,Regular
-tca,1983,Regular
-tca,1984,Regular
-tca,1985,Regular
-tca,1986,Regular
-tca,1987,Regular
-tca,1988,Regular
-tca,1989,Regular
-tca,1990,Regular
-tca,1991,Regular
-tca,1992,Regular
-tca,1993,Regular
-tca,1994,Regular
-tca,1995,Regular
-tca,1996,Regular
-tca,1997,Regular
-tca,1998,Regular
-tca,1999,Regular
-tca,2000,Regular
-tca,2001,Regular
-tca,2002,Regular
-tca,2003,Outlier
-tca,2004,Regular
-tca,2005,Regular
-tca,2006,Regular
-tca,2007,Regular
-tca,2008,Regular
-tca,2009,Regular
-tca,2010,Regular
-tca,2011,Regular
-tca,2012,Regular
-tca,2013,Regular
-tca,2014,Outlier
-tca,2015,Outlier
-tca,2016,Outlier
-tca,2017,Outlier
-tcd,1960,Regular
+tcd,1960,Outlier
 tcd,1961,Regular
 tcd,1962,Regular
 tcd,1963,Regular
@@ -8770,7 +6684,7 @@ tcd,1997,Regular
 tcd,1998,Regular
 tcd,1999,Regular
 tcd,2000,Regular
-tcd,2001,Regular
+tcd,2001,Low capital share
 tcd,2002,Regular
 tcd,2003,Regular
 tcd,2004,Regular
@@ -8787,64 +6701,64 @@ tcd,2014,Regular
 tcd,2015,Regular
 tcd,2016,Regular
 tcd,2017,Regular
-tgo,1960,Regular
-tgo,1961,Regular
-tgo,1962,Regular
-tgo,1963,Regular
-tgo,1964,Regular
-tgo,1965,Regular
-tgo,1966,Regular
-tgo,1967,Regular
-tgo,1968,Regular
-tgo,1969,Regular
-tgo,1970,Regular
-tgo,1971,Regular
-tgo,1972,Regular
-tgo,1973,Regular
-tgo,1974,Regular
-tgo,1975,Regular
-tgo,1976,Regular
-tgo,1977,Regular
-tgo,1978,Regular
-tgo,1979,Regular
-tgo,1980,Regular
-tgo,1981,Regular
-tgo,1982,Regular
-tgo,1983,Regular
-tgo,1984,Regular
-tgo,1985,Regular
-tgo,1986,Regular
-tgo,1987,Regular
-tgo,1988,Regular
-tgo,1989,Regular
-tgo,1990,Regular
-tgo,1991,Regular
-tgo,1992,Regular
-tgo,1993,Regular
-tgo,1994,Regular
-tgo,1995,Regular
-tgo,1996,Regular
-tgo,1997,Regular
-tgo,1998,Regular
-tgo,1999,Regular
-tgo,2000,Regular
-tgo,2001,Regular
-tgo,2002,Regular
-tgo,2003,Regular
-tgo,2004,Regular
-tgo,2005,Regular
-tgo,2006,Regular
-tgo,2007,Regular
-tgo,2008,Regular
-tgo,2009,Regular
-tgo,2010,Regular
-tgo,2011,Regular
-tgo,2012,Regular
-tgo,2013,Regular
-tgo,2014,Regular
-tgo,2015,Regular
-tgo,2016,Regular
-tgo,2017,Regular
+tgo,1960,Low capital share
+tgo,1961,Low capital share
+tgo,1962,Low capital share
+tgo,1963,Low capital share
+tgo,1964,Low capital share
+tgo,1965,Low capital share
+tgo,1966,Low capital share
+tgo,1967,Outlier
+tgo,1968,Outlier
+tgo,1969,Outlier
+tgo,1970,Low capital share
+tgo,1971,Low capital share
+tgo,1972,Low capital share
+tgo,1973,Low capital share
+tgo,1974,Low capital share
+tgo,1975,Low capital share
+tgo,1976,Lower bound
+tgo,1977,Lower bound
+tgo,1978,Lower bound
+tgo,1979,Lower bound
+tgo,1980,Lower bound
+tgo,1981,Lower bound
+tgo,1982,Lower bound
+tgo,1983,Lower bound
+tgo,1984,Lower bound
+tgo,1985,Lower bound
+tgo,1986,Lower bound
+tgo,1987,Lower bound
+tgo,1988,Lower bound
+tgo,1989,Lower bound
+tgo,1990,Low capital share
+tgo,1991,Lower bound
+tgo,1992,Lower bound
+tgo,1993,Lower bound
+tgo,1994,Lower bound
+tgo,1995,Lower bound
+tgo,1996,Lower bound
+tgo,1997,Lower bound
+tgo,1998,Lower bound
+tgo,1999,Lower bound
+tgo,2000,Lower bound
+tgo,2001,Lower bound
+tgo,2002,Lower bound
+tgo,2003,Lower bound
+tgo,2004,Lower bound
+tgo,2005,Lower bound
+tgo,2006,Lower bound
+tgo,2007,Lower bound
+tgo,2008,Lower bound
+tgo,2009,Lower bound
+tgo,2010,Lower bound
+tgo,2011,Lower bound
+tgo,2012,Lower bound
+tgo,2013,Lower bound
+tgo,2014,Lower bound
+tgo,2015,Lower bound
+tgo,2016,Lower bound
+tgo,2017,Lower bound
 tha,1950,Regular
 tha,1951,Regular
 tha,1952,Regular
@@ -8913,62 +6827,34 @@ tha,2014,Regular
 tha,2015,Regular
 tha,2016,Regular
 tha,2017,Regular
-tjk,1990,Regular
-tjk,1991,Regular
+tjk,1990,Outlier
+tjk,1991,Outlier
 tjk,1992,Regular
 tjk,1993,Regular
-tjk,1994,Regular
-tjk,1995,Regular
-tjk,1996,Regular
-tjk,1997,Regular
-tjk,1998,Regular
-tjk,1999,Regular
-tjk,2000,Regular
-tjk,2001,Regular
-tjk,2002,Regular
+tjk,1994,Lower bound
+tjk,1995,Lower bound
+tjk,1996,Lower bound
+tjk,1997,Lower bound
+tjk,1998,Lower bound
+tjk,1999,Lower bound
+tjk,2000,Lower bound
+tjk,2001,Lower bound
+tjk,2002,Lower bound
 tjk,2003,Regular
-tjk,2004,Regular
+tjk,2004,Lower bound
 tjk,2005,Regular
-tjk,2006,Regular
-tjk,2007,Regular
-tjk,2008,Regular
-tjk,2009,Regular
-tjk,2010,Regular
-tjk,2011,Regular
-tjk,2012,Regular
-tjk,2013,Regular
-tjk,2014,Regular
-tjk,2015,Regular
-tjk,2016,Regular
-tjk,2017,Regular
-tkm,1990,Outlier
-tkm,1991,Outlier
-tkm,1992,Outlier
-tkm,1993,Outlier
-tkm,1994,Regular
-tkm,1995,Regular
-tkm,1996,Regular
-tkm,1997,Regular
-tkm,1998,Regular
-tkm,1999,Regular
-tkm,2000,Regular
-tkm,2001,Regular
-tkm,2002,Regular
-tkm,2003,Regular
-tkm,2004,Regular
-tkm,2005,Regular
-tkm,2006,Regular
-tkm,2007,Regular
-tkm,2008,Regular
-tkm,2009,Regular
-tkm,2010,Regular
-tkm,2011,Regular
-tkm,2012,Regular
-tkm,2013,Regular
-tkm,2014,Regular
-tkm,2015,Regular
-tkm,2016,Regular
-tkm,2017,Regular
+tjk,2006,Lower bound
+tjk,2007,Lower bound
+tjk,2008,Lower bound
+tjk,2009,Lower bound
+tjk,2010,Lower bound
+tjk,2011,Lower bound
+tjk,2012,Lower bound
+tjk,2013,Lower bound
+tjk,2014,Lower bound
+tjk,2015,Lower bound
+tjk,2016,Lower bound
+tjk,2017,Lower bound
 tto,1950,Regular
 tto,1951,Regular
 tto,1952,Regular
@@ -9005,7 +6891,7 @@ tto,1982,Regular
 tto,1983,Regular
 tto,1984,Regular
 tto,1985,Regular
-tto,1986,Regular
+tto,1986,Low capital share
 tto,1987,Regular
 tto,1988,Regular
 tto,1989,Regular
@@ -9034,9 +6920,9 @@ tto,2011,Regular
 tto,2012,Regular
 tto,2013,Regular
 tto,2014,Regular
-tto,2015,Regular
-tto,2016,Regular
-tto,2017,Regular
+tto,2015,Outlier
+tto,2016,Outlier
+tto,2017,Outlier
 tun,1960,Regular
 tun,1961,Regular
 tun,1962,Regular
@@ -9103,7 +6989,7 @@ tur,1954,Regular
 tur,1955,Regular
 tur,1956,Regular
 tur,1957,Regular
-tur,1958,Regular
+tur,1958,Outlier
 tur,1959,Regular
 tur,1960,Regular
 tur,1961,Regular
@@ -9255,9 +7141,9 @@ tza,1981,Regular
 tza,1982,Regular
 tza,1983,Regular
 tza,1984,Regular
-tza,1985,Regular
-tza,1986,Regular
-tza,1987,Regular
+tza,1985,Lower bound
+tza,1986,Lower bound
+tza,1987,Lower bound
 tza,1988,Regular
 tza,1989,Regular
 tza,1990,Regular
@@ -9288,103 +7174,35 @@ tza,2014,Regular
 tza,2015,Regular
 tza,2016,Regular
 tza,2017,Regular
-uga,1950,Regular
-uga,1951,Regular
-uga,1952,Regular
-uga,1953,Regular
-uga,1954,Regular
-uga,1955,Regular
-uga,1956,Regular
-uga,1957,Regular
-uga,1958,Regular
-uga,1959,Regular
-uga,1960,Regular
-uga,1961,Regular
-uga,1962,Regular
-uga,1963,Regular
-uga,1964,Regular
-uga,1965,Regular
-uga,1966,Regular
-uga,1967,Regular
-uga,1968,Regular
-uga,1969,Regular
-uga,1970,Regular
-uga,1971,Regular
-uga,1972,Regular
-uga,1973,Regular
-uga,1974,Regular
-uga,1975,Regular
-uga,1976,Regular
-uga,1977,Regular
-uga,1978,Regular
-uga,1979,Regular
-uga,1980,Regular
-uga,1981,Regular
-uga,1982,Regular
-uga,1983,Regular
-uga,1984,Regular
-uga,1985,Regular
-uga,1986,Regular
-uga,1987,Regular
-uga,1988,Regular
-uga,1989,Regular
-uga,1990,Regular
-uga,1991,Regular
-uga,1992,Regular
-uga,1993,Regular
-uga,1994,Regular
-uga,1995,Regular
-uga,1996,Regular
-uga,1997,Regular
-uga,1998,Regular
-uga,1999,Regular
-uga,2000,Regular
-uga,2001,Regular
-uga,2002,Regular
-uga,2003,Regular
-uga,2004,Regular
-uga,2005,Regular
-uga,2006,Regular
-uga,2007,Regular
-uga,2008,Regular
-uga,2009,Regular
-uga,2010,Regular
-uga,2011,Regular
-uga,2012,Regular
-uga,2013,Regular
-uga,2014,Regular
-uga,2015,Regular
-uga,2016,Regular
-uga,2017,Regular
-ukr,1990,Regular
-ukr,1991,Regular
+ukr,1990,Outlier
+ukr,1991,Outlier
 ukr,1992,Regular
 ukr,1993,Regular
 ukr,1994,Regular
-ukr,1995,Regular
-ukr,1996,Regular
-ukr,1997,Regular
-ukr,1998,Regular
-ukr,1999,Regular
-ukr,2000,Regular
-ukr,2001,Regular
-ukr,2002,Regular
-ukr,2003,Regular
-ukr,2004,Regular
+ukr,1995,Lower bound
+ukr,1996,Lower bound
+ukr,1997,Lower bound
+ukr,1998,Lower bound
+ukr,1999,Lower bound
+ukr,2000,Lower bound
+ukr,2001,Lower bound
+ukr,2002,Lower bound
+ukr,2003,Lower bound
+ukr,2004,Lower bound
 ukr,2005,Regular
 ukr,2006,Regular
 ukr,2007,Regular
 ukr,2008,Regular
-ukr,2009,Regular
-ukr,2010,Regular
-ukr,2011,Regular
-ukr,2012,Regular
-ukr,2013,Regular
-ukr,2014,Regular
-ukr,2015,Regular
-ukr,2016,Regular
+ukr,2009,Lower bound
+ukr,2010,Lower bound
+ukr,2011,Lower bound
+ukr,2012,Lower bound
+ukr,2013,Lower bound
+ukr,2014,Lower bound
+ukr,2015,Lower bound
+ukr,2016,Lower bound
 ukr,2017,Regular
-ury,1950,Regular
+ury,1950,Outlier
 ury,1951,Regular
 ury,1952,Regular
 ury,1953,Regular
@@ -9520,82 +7338,6 @@ usa,2014,Regular
 usa,2015,Regular
 usa,2016,Regular
 usa,2017,Regular
-uzb,1990,Regular
-uzb,1991,Regular
-uzb,1992,Regular
-uzb,1993,Regular
-uzb,1994,Regular
-uzb,1995,Regular
-uzb,1996,Regular
-uzb,1997,Regular
-uzb,1998,Regular
-uzb,1999,Regular
-uzb,2000,Regular
-uzb,2001,Regular
-uzb,2002,Regular
-uzb,2003,Regular
-uzb,2004,Regular
-uzb,2005,Regular
-uzb,2006,Regular
-uzb,2007,Regular
-uzb,2008,Regular
-uzb,2009,Regular
-uzb,2010,Regular
-uzb,2011,Regular
-uzb,2012,Regular
-uzb,2013,Regular
-uzb,2014,Regular
-uzb,2015,Regular
-uzb,2016,Regular
-uzb,2017,Outlier
-vct,1970,Regular
-vct,1971,Regular
-vct,1972,Regular
-vct,1973,Regular
-vct,1974,Regular
-vct,1975,Regular
-vct,1976,Regular
-vct,1977,Regular
-vct,1978,Regular
-vct,1979,Regular
-vct,1980,Regular
-vct,1981,Regular
-vct,1982,Regular
-vct,1983,Regular
-vct,1984,Regular
-vct,1985,Regular
-vct,1986,Regular
-vct,1987,Regular
-vct,1988,Regular
-vct,1989,Regular
-vct,1990,Regular
-vct,1991,Regular
-vct,1992,Regular
-vct,1993,Regular
-vct,1994,Regular
-vct,1995,Regular
-vct,1996,Regular
-vct,1997,Regular
-vct,1998,Regular
-vct,1999,Regular
-vct,2000,Regular
-vct,2001,Regular
-vct,2002,Regular
-vct,2003,Regular
-vct,2004,Regular
-vct,2005,Regular
-vct,2006,Regular
-vct,2007,Regular
-vct,2008,Regular
-vct,2009,Regular
-vct,2010,Regular
-vct,2011,Regular
-vct,2012,Regular
-vct,2013,Regular
-vct,2014,Regular
-vct,2015,Regular
-vct,2016,Regular
-vct,2017,Regular
 ven,1950,Regular
 ven,1951,Regular
 ven,1952,Regular
@@ -9712,83 +7454,6 @@ vgb,2014,Regular
 vgb,2015,Regular
 vgb,2016,Regular
 vgb,2017,Regular
-vnm,1970,Regular
-vnm,1971,Regular
-vnm,1972,Regular
-vnm,1973,Regular
-vnm,1974,Regular
-vnm,1975,Regular
-vnm,1976,Regular
-vnm,1977,Regular
-vnm,1978,Regular
-vnm,1979,Regular
-vnm,1980,Regular
-vnm,1981,Outlier
-vnm,1982,Outlier
-vnm,1983,Regular
-vnm,1984,Regular
-vnm,1985,Regular
-vnm,1986,Regular
-vnm,1987,Regular
-vnm,1988,Regular
-vnm,1989,Regular
-vnm,1990,Regular
-vnm,1991,Regular
-vnm,1992,Regular
-vnm,1993,Regular
-vnm,1994,Regular
-vnm,1995,Regular
-vnm,1996,Regular
-vnm,1997,Regular
-vnm,1998,Regular
-vnm,1999,Regular
-vnm,2000,Regular
-vnm,2001,Regular
-vnm,2002,Regular
-vnm,2003,Regular
-vnm,2004,Regular
-vnm,2005,Regular
-vnm,2006,Regular
-vnm,2007,Regular
-vnm,2008,Regular
-vnm,2009,Regular
-vnm,2010,Regular
-vnm,2011,Regular
-vnm,2012,Regular
-vnm,2013,Regular
-vnm,2014,Regular
-vnm,2015,Regular
-vnm,2016,Regular
-vnm,2017,Regular
-yem,1989,Regular
-yem,1990,Regular
-yem,1991,Regular
-yem,1992,Regular
-yem,1993,Regular
-yem,1994,Regular
-yem,1995,Regular
-yem,1996,Regular
-yem,1997,Regular
-yem,1998,Regular
-yem,1999,Regular
-yem,2000,Regular
-yem,2001,Regular
-yem,2002,Regular
-yem,2003,Regular
-yem,2004,Regular
-yem,2005,Regular
-yem,2006,Regular
-yem,2007,Regular
-yem,2008,Regular
-yem,2009,Regular
-yem,2010,Regular
-yem,2011,Regular
-yem,2012,Regular
-yem,2013,Regular
-yem,2014,Regular
-yem,2015,Regular
-yem,2016,Regular
-yem,2017,Regular
 zaf,1950,Regular
 zaf,1951,Regular
 zaf,1952,Regular
@@ -9857,69 +7522,6 @@ zaf,2014,Regular
 zaf,2015,Regular
 zaf,2016,Regular
 zaf,2017,Regular
-zmb,1955,Regular
-zmb,1956,Regular
-zmb,1957,Regular
-zmb,1958,Regular
-zmb,1959,Regular
-zmb,1960,Regular
-zmb,1961,Regular
-zmb,1962,Regular
-zmb,1963,Regular
-zmb,1964,Regular
-zmb,1965,Regular
-zmb,1966,Regular
-zmb,1967,Regular
-zmb,1968,Regular
-zmb,1969,Regular
-zmb,1970,Regular
-zmb,1971,Regular
-zmb,1972,Regular
-zmb,1973,Regular
-zmb,1974,Regular
-zmb,1975,Regular
-zmb,1976,Regular
-zmb,1977,Regular
-zmb,1978,Regular
-zmb,1979,Regular
-zmb,1980,Regular
-zmb,1981,Regular
-zmb,1982,Regular
-zmb,1983,Regular
-zmb,1984,Regular
-zmb,1985,Regular
-zmb,1986,Regular
-zmb,1987,Regular
-zmb,1988,Regular
-zmb,1989,Regular
-zmb,1990,Regular
-zmb,1991,Regular
-zmb,1992,Regular
-zmb,1993,Regular
-zmb,1994,Regular
-zmb,1995,Regular
-zmb,1996,Regular
-zmb,1997,Regular
-zmb,1998,Regular
-zmb,1999,Regular
-zmb,2000,Regular
-zmb,2001,Regular
-zmb,2002,Regular
-zmb,2003,Regular
-zmb,2004,Regular
-zmb,2005,Regular
-zmb,2006,Regular
-zmb,2007,Regular
-zmb,2008,Regular
-zmb,2009,Regular
-zmb,2010,Regular
-zmb,2011,Regular
-zmb,2012,Regular
-zmb,2013,Regular
-zmb,2014,Regular
-zmb,2015,Regular
-zmb,2016,Regular
-zmb,2017,Regular
 zwe,1954,Regular
 zwe,1955,Regular
 zwe,1956,Regular
@@ -9943,7 +7545,7 @@ zwe,1973,Regular
 zwe,1974,Regular
 zwe,1975,Regular
 zwe,1976,Regular
-zwe,1977,Regular
+zwe,1977,Low capital share
 zwe,1978,Regular
 zwe,1979,Regular
 zwe,1980,Regular
