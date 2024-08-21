@@ -1,13 +1,14 @@
 {
     "name": "ddf--pwt--penn_world_table",
     "language": {
-        "id": "en"
+        "name": "English",
+        "id": "en-US"
     },
     "title": "ddf--pwt--penn_world_table",
     "description": "",
     "author": "",
     "license": "",
-    "created": "2019-09-02T14:38:14.258947+00:00",
+    "created": "2024-08-21T02:31:16.749580+00:00",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -24,7 +25,9 @@
                         "name": "concept_type"
                     }
                 ],
-                "primaryKey": "concept"
+                "primaryKey": [
+                    "concept"
+                ]
             }
         },
         {
@@ -1050,7 +1053,9 @@
                         "name": "currency_unit"
                     }
                 ],
-                "primaryKey": "country"
+                "primaryKey": [
+                    "country"
+                ]
             }
         }
     ],
