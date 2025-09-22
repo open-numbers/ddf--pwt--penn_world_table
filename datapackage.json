@@ -1,14 +1,14 @@
 {
     "name": "ddf--pwt--penn_world_table",
-    "language": {
-        "name": "English",
-        "id": "en-US"
-    },
     "title": "ddf--pwt--penn_world_table",
     "description": "",
     "author": "",
     "license": "",
-    "created": "2024-08-21T02:31:16.749580+00:00",
+    "language": {
+        "name": "English",
+        "id": "en-US"
+    },
+    "created": "2025-09-22T07:24:02.079Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -27,6 +27,26 @@
                 ],
                 "primaryKey": [
                     "concept"
+                ]
+            }
+        },
+        {
+            "name": "ddf--entities--country",
+            "path": "ddf--entities--country.csv",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "country"
+                    },
+                    {
+                        "name": "name"
+                    },
+                    {
+                        "name": "currency_unit"
+                    }
+                ],
+                "primaryKey": [
+                    "country"
                 ]
             }
         },
@@ -421,111 +441,6 @@
                     },
                     {
                         "name": "hc"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--i_cig--by--country--year",
-            "path": "ddf--datapoints--i_cig--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "i_cig"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--i_irr--by--country--year",
-            "path": "ddf--datapoints--i_irr--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "i_irr"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--i_outlier--by--country--year",
-            "path": "ddf--datapoints--i_outlier--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "i_outlier"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--i_xm--by--country--year",
-            "path": "ddf--datapoints--i_xm--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "i_xm"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
-            "name": "ddf--datapoints--i_xr--by--country--year",
-            "path": "ddf--datapoints--i_xr--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "i_xr"
                     }
                 ],
                 "primaryKey": [
@@ -1037,26 +952,6 @@
                     "year"
                 ]
             }
-        },
-        {
-            "name": "ddf--entities--country",
-            "path": "ddf--entities--country.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "name"
-                    },
-                    {
-                        "name": "currency_unit"
-                    }
-                ],
-                "primaryKey": [
-                    "country"
-                ]
-            }
         }
     ],
     "ddfSchema": {
@@ -1289,56 +1184,6 @@
                 "value": "hc",
                 "resources": [
                     "ddf--datapoints--hc--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "i_cig",
-                "resources": [
-                    "ddf--datapoints--i_cig--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "i_irr",
-                "resources": [
-                    "ddf--datapoints--i_irr--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "i_outlier",
-                "resources": [
-                    "ddf--datapoints--i_outlier--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "i_xm",
-                "resources": [
-                    "ddf--datapoints--i_xm--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "i_xr",
-                "resources": [
-                    "ddf--datapoints--i_xr--by--country--year"
                 ]
             },
             {
