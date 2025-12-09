@@ -44,7 +44,7 @@ cri,Costa Rica,Costa Rican Colon
 cuw,Curaçao,Netherlands Antillian Guilder
 cym,Cayman Islands,Cayman Islands Dollar
 cyp,Cyprus,Euro
-cze,Czech Republic,Czech Koruna
+cze,Czechia,Czech Koruna
 deu,Germany,Euro
 dji,Djibouti,Djibouti Franc
 dma,Dominica,East Caribbean Dollar
@@ -73,7 +73,7 @@ gtm,Guatemala,Quetzal
 guy,Guyana,Guyana Dollar
 hkg,"China, Hong Kong SAR",Hong Kong Dollar
 hnd,Honduras,Lempira
-hrv,Croatia,Croatian Kuna
+hrv,Croatia,Euro
 hti,Haiti,Gourde
 hun,Hungary,Forint
 idn,Indonesia,Rupiah
@@ -148,7 +148,9 @@ sen,Senegal,CFA Franc BCEAO
 sgp,Singapore,Singapore Dollar
 sle,Sierra Leone,Leone
 slv,El Salvador,US Dollar
+som,Somalia,Somali Shilling
 srb,Serbia,Serbian Dinar
+ssd,South Sudan,South Sudanese Pound
 stp,Sao Tome and Principe,Dobra
 sur,Suriname,Surinam Dollar
 svk,Slovakia,Euro
@@ -163,10 +165,10 @@ tcd,Chad,CFA Franc BEAC
 tgo,Togo,CFA Franc BCEAO
 tha,Thailand,Baht
 tjk,Tajikistan,Somoni
-tkm,Turkmenistan,Manat
+tkm,Turkmenistan,Turkmenistan Manat
 tto,Trinidad and Tobago,Trinidad and Tobago Dollar
 tun,Tunisia,Tunisian Dinar
-tur,Turkey,New Turkish Lira
+tur,Türkiye,New Turkish Lira
 twn,Taiwan,New Taiwan Dollar
 tza,U.R. of Tanzania: Mainland,Tanzanian Shilling
 uga,Uganda,Uganda Shilling
@@ -175,7 +177,7 @@ ury,Uruguay,Peso Uruguayo
 usa,United States,US Dollar
 uzb,Uzbekistan,Uzbekistan Sum
 vct,St. Vincent and the Grenadines,East Caribbean Dollar
-ven,Venezuela (Bolivarian Republic of),Bolivar Fuerte
+ven,Venezuela (Bolivarian Republic of),Bolivar Digital
 vgb,British Virgin Islands,US Dollar
 vnm,Viet Nam,Dong
 yem,Yemen,Yemeni Rial

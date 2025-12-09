@@ -8,7 +8,7 @@
         "name": "English",
         "id": "en-US"
     },
-    "created": "2025-09-22T07:24:02.079Z",
+    "created": "2025-12-09T01:26:53.067Z",
     "resources": [
         {
             "name": "ddf--concepts",
@@ -912,27 +912,6 @@
             }
         },
         {
-            "name": "ddf--datapoints--statcap--by--country--year",
-            "path": "ddf--datapoints--statcap--by--country--year.csv",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "country"
-                    },
-                    {
-                        "name": "year"
-                    },
-                    {
-                        "name": "statcap"
-                    }
-                ],
-                "primaryKey": [
-                    "country",
-                    "year"
-                ]
-            }
-        },
-        {
             "name": "ddf--datapoints--xr--by--country--year",
             "path": "ddf--datapoints--xr--by--country--year.csv",
             "schema": {
@@ -1404,16 +1383,6 @@
                 "value": "rwtfpna",
                 "resources": [
                     "ddf--datapoints--rwtfpna--by--country--year"
-                ]
-            },
-            {
-                "primaryKey": [
-                    "country",
-                    "year"
-                ],
-                "value": "statcap",
-                "resources": [
-                    "ddf--datapoints--statcap--by--country--year"
                 ]
             },
             {

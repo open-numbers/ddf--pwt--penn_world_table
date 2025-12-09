@@ -7,7 +7,7 @@ import os
 from ddf_utils.str import to_concept_id
 
 # configuration of file path
-source = "../source/pwt1001.xlsx"
+source = "../source/pwt110.xlsx"
 out_dir = "../../"
 
 
